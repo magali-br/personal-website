@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&family=Sawarabi+Mincho&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --background: #fff;
+  --title: #352800;
+  --alt_title: #008b8b;
+  --highlight: #03b2b2;
+  --border: #73cece;
+  --dark: #0f2f44;
+  --text: #0f2f44;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+.BoldUnderlined {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.BoldItalic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.Italic {
+  font-style: italic;
+}
+
+.CrossedOut {
+  text-decoration: line-through;
+}
+
+.Subtitle {
+  width: fit-content;
+  margin-bottom: 10px;
+  line-height: 40px;
+  color: var(--dark);
+  font-size: 30px;
+  font-family: "Sawarabi Mincho";
+}
+
+.Container {
+  padding: 0 80px;
+  font-size: 20px;
+  min-height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+}
+
+.About {
+  text-align: left;
+}
+
+.AboutQuestion {
+  margin-bottom: 35px;
+}
+
+.AboutQuestion p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .Container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    padding: 20px;
+  }
+
+  .MenuItems {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .Title {
+    font-size: 35px;
+  }
+
+  .Subtitle {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  .Container {
+    padding: 0 20px;
+  }
+
+  .Footer {
+    font-size: 10px;
+    padding: 10px 0 10px 0;
+  }
+}

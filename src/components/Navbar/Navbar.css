@@ -1,0 +1,37 @@
+.Navbar {
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--border);
+}
+
+.Title {
+  font-family: "Freckle Face";
+  font-size: 50px;
+  color: var(--title);
+  width: fit-content;
+  justify-content: flex-start;
+}
+
+.MenuItems {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.MenuItemContainer {
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.MenuItem {
+  color: var(--title);
+  padding: 3px;
+}
+
+.MenuItem:hover {
+  background-color: var(--highlight);
+  cursor: pointer;
+}

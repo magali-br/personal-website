@@ -1,0 +1,17 @@
+.Languages p {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.LanguageResource {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.LanguageResourceTitle {
+    font-weight: bold;
+}
+
+.LanguageResourceLink {
+    text-decoration: underline;
+}
