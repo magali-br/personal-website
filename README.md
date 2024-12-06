@@ -46,7 +46,7 @@ GitHub pages are a nice alternative if only they worked on [private repos](https
 
 The files `vercel.json` and `vite.config.js` are essential for Vercel to be able to run the right build script.
 
-Mais' settings on Vercel (also see ~/magali-small-world/screenshots/vercel-project-settings.png):
+Mais' settings on Vercel (also see ../screenshots/vercel-project-settings.png):
 
 <p float="left">
   <img src="screenshots/vercel-project-settings.png" width="700" />
