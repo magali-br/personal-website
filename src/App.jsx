@@ -8,6 +8,7 @@ import Recipes from "./pages/Recipes/Recipes";
 import Recipe from "./pages/Recipe/Recipe";
 import Blog from "./pages/Blog/Blog";
 import BlogDetail from "./pages/BlogDetail/BlogDetail";
+import Books from "./pages/Books/Books";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/recipes/:id" element={<Recipe />} />
           <Route path="/blog/*" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
+          <Route path="/books" element={<Books />} />
         </Routes>
         <Footer />
       </div>

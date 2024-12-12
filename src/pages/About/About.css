@@ -1,5 +1,11 @@
-body {
+.About {
+  text-align: left;
+}
+
+.AboutQuestion {
+  margin-bottom: 35px;
+}
+
+.AboutQuestion p {
   margin: 0;
-  background: var(--background);
-  color: var(--text);
 }

@@ -23,6 +23,11 @@ function Navbar() {
             <span className="MenuItem">recipes</span>
           </Link>
         </div>
+        <div className="MenuItemContainer">
+          <Link to="/books">
+            <span className="MenuItem">books</span>
+          </Link>
+        </div>
         {/* <div className="MenuItemContainer">
           <Link to="/blog">
             <span className="MenuItem">blog</span>
