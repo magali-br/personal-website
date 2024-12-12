@@ -1,6 +1,6 @@
 ## Project info
 
-Huge thank you to Mais Hatem (maishatem.com) for providing so much of the inspiration for this website!
+Huge thank you to Mais Hatem (www.maishatem.com) for providing so much of the inspiration for this website!
 
 This project uses:
 - CSS & Flexbox (Useful resource for learning: Flexbox Froggy https://flexboxfroggy.com/)
