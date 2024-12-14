@@ -15,7 +15,7 @@ function About() {
         <p>
           My name is Magali, pronounced
           <li>['ma:gəli] i.e. MAH-guh-lee in English,</li>
-          <li>[maga'li:] i.e. ma-ga-LEE in French.</li>
+          <li>[maga'li:] i.e. ma-ga-LEE in French, Spanish, or German.</li>
         </p>
       </div>
       <div>
