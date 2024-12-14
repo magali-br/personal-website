@@ -11,7 +11,7 @@ function About() {
         </p>
       </div>
       <div className="AboutQuestion">
-        <h2 className="Subtitle">How do you pronounce your name?</h2>
+        <h2 className="Subtitle">How do you pronounce that?</h2>
         <p>
           My name is Magali, pronounced
           <li>['ma:gəli] i.e. MAH-guh-lee in English,</li>
