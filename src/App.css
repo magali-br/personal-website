@@ -44,6 +44,11 @@ body {
   font-weight: bold;
 }
 
+button {
+  width: fit-content;
+  font-weight: bold;
+}
+
 .Italic {
   font-style: italic;
 }
