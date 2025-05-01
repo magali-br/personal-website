@@ -9,6 +9,7 @@ import Recipe from "./pages/Recipe/Recipe";
 import Blog from "./pages/Blog/Blog";
 import BlogDetail from "./pages/BlogDetail/BlogDetail";
 import Books from "./pages/Books/Books";
+import Coaching from "./pages/Coaching/Coaching";
 import "./App.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/blog/*" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/books" element={<Books />} />
+          <Route path="/coaching" element={<Coaching />} />
         </Routes>
         <Footer />
       </div>

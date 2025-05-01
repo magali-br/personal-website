@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import MarkdownRenderer from "../../MarkdownRenderer";
-import recipeFiles from "../../recipeFiles.json";
+import recipeFiles from "../../recipesFiles.json";
 
 const Recipe = () => {
     const { id } = useParams();

@@ -4,10 +4,10 @@ function Home() {
   return (
     <div className="Home Container">
       <h2 className="Subtitle">
-        Welcome to my many worlds.
+        Welcome to Magali's many worlds.
       </h2>
       <p>
-        Come explore language resources, recipes, book recommendations...
+        Come explore language resources, book recommendations, coaching tools...
       </p>
     </div>
   );

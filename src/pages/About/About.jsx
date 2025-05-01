@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="About Container">
       <div className="AboutQuestion">
-        <h2 className="Subtitle">Who is Magali?</h2>
+        <h2 className="Subtitle">Hi, I'm Magali.</h2>
         <p>
           I'm a software engineer, linguist, dancer, writer, and coach, passionate about experiencing wonder and making the world a better place. <br /> <br />
           As a generalist who never gets tired of jumping into new projects, I love to explore, discover, and connect ideas. I am a shapeshifter, travelling between worlds and balancing out the specialists who prefer to dive deep.
@@ -21,7 +21,7 @@ function About() {
       <div>
         <h2 className="Subtitle">Anything to add?</h2>
         <p>
-          Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe? Maybe you have a comment to make? Send me a message on{" "}
+          Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe? Are you curious about working with me as a coach? Send me a message on{" "}
           <a
             className="BoldUnderlined Link"
             href="https://www.linkedin.com/in/magali-br/"
@@ -29,6 +29,15 @@ function About() {
             rel="noopener noreferrer"
           >
             LinkedIn
+          </a>
+          {" "}or{" "}
+          <a
+            className="BoldUnderlined Link"
+            href="https://www.instagram.com/offbeatcoaching/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
           </a>
           .
         </p>
