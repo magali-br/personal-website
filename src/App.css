@@ -3,12 +3,21 @@
 :root {
   --background: #fff;
   --title: #000;
-  --highlight: #c48d1f;
-  --alt_highlight: #03b2b2;
+  --header_highlight: #c48d1f;
+  --header: #e7a41f;
+
+  --alt_title_black: #000;
+  --alt_title_white: #fff;
   --alt_title_brown: #352800;
+  --alt_header_highlight_duke_blue: #390099;
+  --alt_header_highlight_vista_blue: #707bf9;
+  --alt_header_highlight_gold: #c48d1f;
+  --alt_header_highlight_turquoise: #03b2b2;
   --alt_colour_dark_turquoise: #008b8b;
-  --alt_border_turquoise: #73cece;
-  --border: #e7a41f;
+  --alt_header_turquoise: #73cece;
+  --alt_header_harvest_gold: #e7a41f;
+  --alt_header_vista_blue: #9ba2ff;
+  --alt_header_duke_blue: #390099;
   --dark: #0f2f44;
   --text: #0f2f44;
 }

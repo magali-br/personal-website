@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-color: var(--border);
+  background-color: var(--header);
 }
 
 .Title {
@@ -33,6 +33,6 @@
 }
 
 .MenuItem:hover {
-  background-color: var(--highlight);
+  background-color: var(--header_highlight);
   cursor: pointer;
 }
