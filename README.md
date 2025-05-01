@@ -32,7 +32,7 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
     ```
     npm run generate-file-lists
     ```
-    This will generate `blogFiles.json`; a list of the files names the front-end will eventually parse. 
+    This will generate `blogFiles.json` and `recipesFiles.json`; a list of the files names the front-end will eventually parse. 
 
     NOTE: Currently, the `md/` directory has placeholder blogs (Blog 1, 2, and 3).
 
