@@ -6,7 +6,7 @@ function Books() {
             <div>
                 <p>Here is an evergrowing list of  {" "}
                     <a
-                        className="BoldUnderlined Link"
+                        className="VisibleLink Link"
                         href="https://docs.google.com/spreadsheets/d/11qa-sXCDfMki8rj4OEC3aWGPZcHtS7Ka9keVDM9krj0/view"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -21,7 +21,7 @@ function Books() {
             <div>
                 <p>Here is an evergrowing list of {" "}
                     <a
-                        className="BoldUnderlined Link"
+                        className="VisibleLink Link"
                         href="https://docs.google.com/spreadsheets/d/13D3mh1jt1iYxR1FC1Dbi0fdxguFoRBHTGjRi1_vPe7U/view"
                         target="_blank"
                         rel="noopener noreferrer"

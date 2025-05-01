@@ -30,27 +30,18 @@ body {
   color: var(--text);
 }
 
-.BoldUnderlined {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.BoldItalic {
-  font-weight: bold;
-  font-style: italic;
-}
-
-.Bold {
-  font-weight: bold;
-}
-
 button {
   width: fit-content;
   font-weight: bold;
 }
 
-.Italic {
-  font-style: italic;
+.Container {
+  padding: 0 80px;
+  font-size: 20px;
+  min-height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
 }
 
 .CrossedOut {
@@ -66,13 +57,9 @@ button {
   font-family: "Sawarabi Mincho";
 }
 
-.Container {
-  padding: 0 80px;
-  font-size: 20px;
-  min-height: calc(100vh - 250px);
-  display: flex;
-  flex-direction: column;
-  max-width: 1300px;
+.VisibleLink {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {

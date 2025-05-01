@@ -23,7 +23,7 @@ function About() {
         <p>
           Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe? Are you curious about working with me as a coach? Send me a message on{" "}
           <a
-            className="BoldUnderlined Link"
+            className="VisibleLink Link"
             href="https://www.linkedin.com/in/magali-br/"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,7 +32,7 @@ function About() {
           </a>
           {" "}or{" "}
           <a
-            className="BoldUnderlined Link"
+            className="VisibleLink Link"
             href="https://www.instagram.com/offbeatcoaching/"
             target="_blank"
             rel="noopener noreferrer"
