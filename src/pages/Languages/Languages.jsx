@@ -4,7 +4,7 @@ function Languages() {
     return (
         <div className="Languages Container">
             <h2 className="Subtitle">
-                bienvenue - welcome - bienvenidos - willkommen - bonvenon - خوش آمدید - céad míle fáilte - dobrodošli - أهلاً وسهلاً - degemer mat - स्वागत
+                bienvenue - welcome - willkommen - bienvenidos - أهلا وسهلا - dobrodošli - bonvenon - céad míle fáilte - degemer mat - خوش آمدید - स्वागत - bainvegni
             </h2>
             <p>
                 That was a sample of the languages I've fallen in love with over the course of my life. <br /> <br />

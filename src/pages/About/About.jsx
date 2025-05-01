@@ -18,30 +18,6 @@ function About() {
           <li>[maga'li:] i.e. ma-ga-LEE in French, Spanish, or German.</li>
         </p>
       </div>
-      <div>
-        <h2 className="Subtitle">Something to say?</h2>
-        <p>
-          Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe? Are you curious about working with me as a coach? Send me a message on{" "}
-          <a
-            className="VisibleLink Link"
-            href="https://www.linkedin.com/in/magali-br/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          {" "}or{" "}
-          <a
-            className="VisibleLink Link"
-            href="https://www.instagram.com/offbeatcoaching/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-          .
-        </p>
-      </div>
     </div>
   );
 }

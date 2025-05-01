@@ -25,6 +25,30 @@ function Home() {
           {"  "}coaching tools
         </Link>...
       </p>
+      <div>
+        <h2 className="Subtitle">Something to say?</h2>
+        <p>
+          Are you curious about working with me as a coach? Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe, or a comment on a book? Send me a message on{" "}
+          <a
+            className="VisibleLink Link"
+            href="https://www.linkedin.com/in/magali-br/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          {" "}or{" "}
+          <a
+            className="VisibleLink Link"
+            href="https://www.instagram.com/offbeatcoaching/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
 }

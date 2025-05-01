@@ -2,10 +2,13 @@
 
 :root {
   --background: #fff;
-  --title: #352800;
-  --alt_title: #008b8b;
-  --highlight: #03b2b2;
-  --border: #73cece;
+  --title: #000;
+  --highlight: #c48d1f;
+  --alt_highlight: #03b2b2;
+  --alt_title_brown: #352800;
+  --alt_colour_dark_turquoise: #008b8b;
+  --alt_border_turquoise: #73cece;
+  --border: #e7a41f;
   --dark: #0f2f44;
   --text: #0f2f44;
 }
