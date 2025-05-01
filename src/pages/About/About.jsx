@@ -19,7 +19,7 @@ function About() {
         </p>
       </div>
       <div>
-        <h2 className="Subtitle">Anything to add?</h2>
+        <h2 className="Subtitle">Something to say?</h2>
         <p>
           Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe? Are you curious about working with me as a coach? Send me a message on{" "}
           <a

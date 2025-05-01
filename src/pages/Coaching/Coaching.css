@@ -1,10 +1,19 @@
+.TextContent {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
 .Interactive {
     /* display: flex;
     flex-wrap: wrap;
     align-content: center; */
+    /* padding-left: 10px; */
+    padding-bottom: 20px;
 }
 
 .ValueName {
     font-style: italic;
     font-family: "Sawarabi Mincho";
+    padding-top: 15px;
+    padding-left: 10px;
 }

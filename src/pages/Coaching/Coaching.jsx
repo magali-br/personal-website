@@ -14,22 +14,26 @@ function Coaching() {
     };
 
     return (
-        <div className="Container">
+        <div className="Coaching Container">
             <h2 className="Subtitle">
                 Values Generator
             </h2>
-            <p>
-                If you're looking for inspiration for what you could be focussing on in your life right now, values are a great tool.
-            </p>
-            <p>Generate a value and see if it feels aligned. If it doesn't, just generate another. Stay with this value for the day or for the week, and see how it feels and what comes up.
-            </p>
             <div className="Interactive">
                 <button type="button" onClick={regenerateValue}>
                     Generate a value
                 </button>
-                <p className="ValueName">
+                <div className="ValueName">
                     {randomValue}
-                </p>
+                </div>
+            </div>
+            <div className="TextContent">
+                Values are a great tool for living more purposefully. The first step is to figure out what values are important to you, then to try to align your life more with them.
+            </div>
+            <div className="TextContent">
+                If life feels a bit aimless or overwhelming right now, or if you're just looking for some inspiration, generate a value and see how it feels. If it doesn't feel aligned, generate another.
+            </div>
+            <div className="TextContent">
+                Once you have a value that feels good, play around with it. Stick with it for the day or for the week, and see what comes up and what it feels to live with that value in mind.
             </div>
         </div>
     );
