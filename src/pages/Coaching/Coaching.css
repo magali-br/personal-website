@@ -3,3 +3,8 @@
     flex-wrap: wrap;
     align-content: center; */
 }
+
+.ValueName {
+    font-style: italic;
+    font-family: "Sawarabi Mincho";
+}

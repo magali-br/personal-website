@@ -5,7 +5,7 @@ import valuesFile from "../../values.json";
 function Coaching() {
     const getRandomObject = (array) => {
         const randomObject = array[Math.floor(Math.random() * array.length)];
-        return randomObject;
+        return randomObject.toLowerCase();
     };
 
     const [randomValue, setRandomValue] = useState(null);
@@ -27,7 +27,7 @@ function Coaching() {
                 <button type="button" onClick={regenerateValue}>
                     Generate a value
                 </button>
-                <p>
+                <p className="ValueName">
                     {randomValue}
                 </p>
             </div>
