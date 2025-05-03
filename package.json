@@ -2,6 +2,7 @@
   "name": "magali-explores",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://magali-br.github.io/magali-personal-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +11,9 @@
     "build-vite": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "generate-file-lists": "node --loader ts-node/esm generateFileLists.js"
+    "generate-file-lists": "node --loader ts-node/esm generateFileLists.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "markdown-to-jsx": "^7.3.2",
@@ -27,6 +30,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.3.0",
     "ts-node": "^10.9.2",
     "vite": "^5.0.8"
   }
