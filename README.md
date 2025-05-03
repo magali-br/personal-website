@@ -36,7 +36,7 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
 
     NOTE: Currently, the `md/` directory has placeholder blogs (Blog 1, 2, and 3).
 
-1. Run the dev server: `npm run dev` OR `npm run dev-vite`
+1. Run the dev server: `npm run dev`
 
 ### Deployment on 
 GitHub pages are a nice way to host but they only work on [private repos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
@@ -44,8 +44,6 @@ GitHub pages are a nice way to host but they only work on [private repos](https:
 How to deploy Vite project to GitHub pages? https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
 
 N.B.: Have fixed gh-pages version to v5 rather than v ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
-
-
 
 ### Deployment on Vercel [not in use]
 
