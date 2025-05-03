@@ -13,6 +13,7 @@
   - https://www.wpeka.com/google-fonts-gdpr.html 
   - OMGF for local fonts with wordpress https://daan.dev/wordpress/omgf/
 - [] Completely clean up CSS
+- [] Figure out how to route using basename - currently ignores it
 
 ## Misc
 - [] Add link to Instagram page: either handle @offbeatcoaching or instagram logo 
@@ -27,8 +28,8 @@
 
 ## Version control
 - [x] Upload to private Github repo
+- [x] Set up on Github Pages repo
 
-- [] Set up on Github Pages repo
 - [] Set up on Vercel? and set up syncing to Vercel
 
 ## Language resources

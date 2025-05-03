@@ -46,6 +46,7 @@ How to deploy Vite project to GitHub pages?
 * Configure GitHub Pages URL correctly in router: https://stackoverflow.com/questions/74518887/blank-page-when-deploying-a-react-app-to-github-pages-and-vite (in my case router basename lives in App.jsx)
 * Fix gh-pages to version 5 rather than version ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
 * If switch to custom domain rather than GitHub Pages extension /personal-website/, change basename in (1) App.jsx router basename, (2) vite.config.js, (3) package.json.
+* If make new changes that need to be deployed, run `npm run deploy` to deploy.
 
 ### Deployment on Vercel [not in use]
 

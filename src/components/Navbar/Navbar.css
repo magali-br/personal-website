@@ -20,11 +20,12 @@
   display: flex;
   margin-top: 10px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .MenuItemContainer {
   text-align: center;
-  margin: 0px 10px;
+  margin: 10px 10px;
 }
 
 .MenuItem {
