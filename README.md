@@ -38,12 +38,18 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
 
 1. Run the dev server: `npm run dev` OR `npm run dev-vite`
 
+### Deployment on 
+GitHub pages are a nice way to host but they only work on [private repos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-### Deployment
+How to deploy Vite project to GitHub pages? https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
+
+N.B.: Have fixed gh-pages version to v5 rather than v ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
+
+
+
+### Deployment on Vercel [not in use]
 
 Original project uses Vercel for Serverless deployments and CI/CD on GitHub. The free tier is ok as long as the website does not run ads / make profit.
-GitHub pages are a nice alternative if only they worked on [private repos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
-
 The files `vercel.json` and `vite.config.js` are essential for Vercel to be able to run the right build script.
 
 Settings on Vercel (also see ../screenshots/vercel-project-settings.png):
@@ -51,6 +57,8 @@ Settings on Vercel (also see ../screenshots/vercel-project-settings.png):
 <p float="left">
   <img src="screenshots/vercel-project-settings.png" width="700" />
 </p>
+
+
 
 Last update: 2025-05-03
 
