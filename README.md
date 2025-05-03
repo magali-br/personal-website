@@ -41,12 +41,12 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
 
 ### Deployment
 
-Mais is using Vercel for Serverless deployments and CI/CD on GitHub. The free tier is ok as long as the website does not run ads / make profit.
+Original project uses Vercel for Serverless deployments and CI/CD on GitHub. The free tier is ok as long as the website does not run ads / make profit.
 GitHub pages are a nice alternative if only they worked on [private repos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
 The files `vercel.json` and `vite.config.js` are essential for Vercel to be able to run the right build script.
 
-Mais' settings on Vercel (also see ../screenshots/vercel-project-settings.png):
+Settings on Vercel (also see ../screenshots/vercel-project-settings.png):
 
 <p float="left">
   <img src="screenshots/vercel-project-settings.png" width="700" />
