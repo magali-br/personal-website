@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev-vite": "vite",
     "build": "vite build",
+    "build-vite": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "generate-file-lists": "node --loader ts-node/esm generateFileLists.js"

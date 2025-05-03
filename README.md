@@ -36,7 +36,7 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
 
     NOTE: Currently, the `md/` directory has placeholder blogs (Blog 1, 2, and 3).
 
-1. Run the dev server: `npm run dev`
+1. Run the dev server: `npm run dev` OR `npm run dev-vite`
 
 
 ### Deployment
@@ -52,7 +52,7 @@ Mais' settings on Vercel (also see ../screenshots/vercel-project-settings.png):
   <img src="screenshots/vercel-project-settings.png" width="700" />
 </p>
 
-Last update: 2024-10-28
+Last update: 2025-05-03
 
 
 

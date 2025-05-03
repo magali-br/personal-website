@@ -3,23 +3,30 @@
 :root {
   --background: #fff;
   --title: #000;
-  --header_highlight: #c48d1f;
-  --header: #e7a41f;
+  --header: #9ba2ff;
+  --header_highlight: #707bf9;
 
   --alt_title_black: #000;
   --alt_title_white: #fff;
   --alt_title_brown: #352800;
-  --alt_header_highlight_duke_blue: #390099;
-  --alt_header_highlight_vista_blue: #707bf9;
-  --alt_header_highlight_gold: #c48d1f;
-  --alt_header_highlight_turquoise: #03b2b2;
-  --alt_colour_dark_turquoise: #008b8b;
-  --alt_header_turquoise: #73cece;
+
   --alt_header_harvest_gold: #e7a41f;
   --alt_header_vista_blue: #9ba2ff;
   --alt_header_duke_blue: #390099;
-  --dark: #0f2f44;
-  --text: #0f2f44;
+  --alt_header_turquoise: #73cece;
+  --alt_header_malachite: #2fbf3e;
+  --alt_header_jade: #0fc485;
+
+  --alt_header_highlight_harvest_gold: #c48d1f;
+  --alt_header_highlight_vista_blue: #707bf9;
+  --alt_header_highlight_duke_blue: #390099;
+  --alt_header_highlight_turquoise: #03b2b2;
+  --alt_header_highlight_malachite: #28a333;
+  --alt_header_highlight_jade: #0da872;
+
+  --alt_colour_dark_turquoise: #008b8b;
+  --darker_text: #0f2f44;
+  --dark_text: #0f2f44;
 }
 
 a {
@@ -39,7 +46,6 @@ html {
 
 body {
   background: var(--background);
-  color: var(--text);
 }
 
 button {
@@ -64,7 +70,6 @@ button {
   width: fit-content;
   margin-bottom: 10px;
   line-height: 40px;
-  color: var(--dark);
   font-size: 30px;
   font-family: "Sawarabi Mincho";
 }

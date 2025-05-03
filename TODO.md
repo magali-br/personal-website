@@ -3,30 +3,32 @@
 ## Structure & dev
 - [x] Define my own sections
 - [x] Make README my own
+- [x] Have single logic for parsing Blogs and Recipes and Language resources pages
+- [x] Improve CSS logic
+
 - [] Create a domain
 - [] Download fonts locally for GDPR
   - Google Fonts and GDPR: https://www.cookieyes.com/documentation/google-fonts-and-gdpr/ 
   - https://developers.google.com/fonts/faq/privacy
   - https://www.wpeka.com/google-fonts-gdpr.html 
   - OMGF for local fonts with wordpress https://daan.dev/wordpress/omgf/
-- [] Have single logic for parsing Blogs and Recipes and Language resources pages
+- [] Completely clean up CSS
+
+## Misc
+- [] Add link to Instagram page: either handle @offbeatcoaching or instagram logo 
+- [] Add FB logo + link 
 
 ## Style
 - [x] Change fonts
 - [x] Change favicon
 - [x] Change basic look
+- [x] Make more professional
+- [x] Experiment with colours
 
 ## Version control
-- [] Upload to private Github repo
+- [x] Upload to private Github repo
 
-The authenticity of host 'github.com (140.82.121.3)' can't be established.
-ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
-This key is not known by any other names.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-git@github.com: Permission denied (publickey).
-
-- [] Set up on Github Pages repo?
+- [] Set up on Github Pages repo
 - [] Set up on Vercel? and set up syncing to Vercel
 
 ## Language resources
@@ -40,3 +42,9 @@ git@github.com: Permission denied (publickey).
 - [] Random recipe selector for every category (desserts, mains, sides)
 - [] Explore https://github.com/TandoorRecipes/recipes
 - [] Add a "conversions" section with textboxes for conversions: temperature, tsp, tbsp, flour, butter, (brown, icing) sugar, ... 
+
+## Coaching
+- [x] Create values generator for weekly inspiration
+
+
+

@@ -30,6 +30,7 @@
 .MenuItem {
   color: var(--title);
   padding: 3px;
+  font-weight: bold;
 }
 
 .MenuItem:hover {
