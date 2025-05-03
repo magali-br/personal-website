@@ -7,6 +7,7 @@
 - [x] Improve CSS logic
 
 - [] Create a domain
+- [] Apply domain - see README for links
 - [] Download fonts locally for GDPR
   - Google Fonts and GDPR: https://www.cookieyes.com/documentation/google-fonts-and-gdpr/ 
   - https://developers.google.com/fonts/faq/privacy
