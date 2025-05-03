@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/personal-website/">
       <div className="App">
         <Navbar />
         <Routes>
@@ -28,17 +28,6 @@ function App() {
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/books" element={<Books />} />
           <Route path="/coaching" element={<Coaching />} />
-
-          <Route path="/personal-website/" element={<Home />} exact />
-          <Route path="/personal-website" element={<Home />} exact />
-          <Route path="/personal-website/about" element={<About />} />
-          <Route path="/personal-website/languages" element={<Languages />} />
-          <Route path="/personal-website/recipes/*" element={<Recipes />} />
-          <Route path="/personal-website/recipes/:id" element={<Recipe />} />
-          <Route path="/personal-website/blog/*" element={<Blog />} />
-          <Route path="/personal-website/blog/:id" element={<BlogDetail />} />
-          <Route path="/personal-website/books" element={<Books />} />
-          <Route path="/personal-website/coaching" element={<Coaching />} />
         </Routes>
         <Footer />
       </div>

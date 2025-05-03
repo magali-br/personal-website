@@ -41,9 +41,11 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
 ### Deployment on 
 GitHub pages are a nice way to host but they only work on [private repos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-How to deploy Vite project to GitHub pages? https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
-
-N.B.: Have fixed gh-pages version to v5 rather than v ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
+How to deploy Vite project to GitHub pages? 
+* https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
+* Configure GitHub Pages URL correctly in router: https://stackoverflow.com/questions/74518887/blank-page-when-deploying-a-react-app-to-github-pages-and-vite (in my case router basename lives in App.jsx)
+* Fix gh-pages to version 5 rather than version ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
+* If switch to custom domain rather than GitHub Pages extension /personal-website/, change basename in (1) App.jsx router basename, (2) vite.config.js, (3) package.json.
 
 ### Deployment on Vercel [not in use]
 
