@@ -1,5 +1,7 @@
 ## Project info
 
+Custom domain: magalibr.com
+
 Huge thank you to Mais Hatem (www.maishatem.com) for providing so much of the inspiration for this website!
 
 This project uses:
