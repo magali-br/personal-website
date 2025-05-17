@@ -40,15 +40,19 @@ On a Mac or Linux machine, run this project by using the following Node and npm 
 
 1. Run the dev server: `npm run dev`
 
-### Deployment on 
+### Deployment on Github Pages
+
 GitHub pages are a nice way to host but they only work on [private repos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
 How to deploy Vite project to GitHub pages? 
+1. Deploy changes to gh-pages branch: `npm run deploy` . This will force a new deploy of your Github Pages repo branch.
+
+Documentation:
 * https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
 * Configure GitHub Pages URL correctly in router: https://stackoverflow.com/questions/74518887/blank-page-when-deploying-a-react-app-to-github-pages-and-vite (in my case router basename lives in App.jsx)
 * Fix gh-pages to version 5 rather than version ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
 * Currently deploying from Branch gh-pages, but if want to deploy using GitHub Actions: https://vite.dev/guide/static-deploy.html#github-pages
-* If switch to custom domain rather than GitHub Pages extension /personal-website/, change basename in (1) App.jsx router basename, (2) vite.config.js, (3) package.json. Also follow https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site and maybe https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/
+* If switch to custom domain rather than GitHub Pages extension /personal-website/, change basename in (1) App.jsx router basename, (2) vite.config.js, (3) package.json. Documentation: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site & https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages
 * If make new changes that need to be deployed, run `npm run deploy` to deploy.
 
 ### Deployment on Vercel [not in use]
