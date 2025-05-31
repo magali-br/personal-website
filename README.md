@@ -52,7 +52,23 @@ Documentation:
 * Configure GitHub Pages URL correctly in router: https://stackoverflow.com/questions/74518887/blank-page-when-deploying-a-react-app-to-github-pages-and-vite (in my case router basename lives in App.jsx)
 * Fix gh-pages to version 5 rather than version ^6.3.0 in package.json due to [running into  "spawn E2BIG" error](https: //github.com/tschaub/gh-pages/issues/399).
 * Currently deploying from Branch gh-pages, but if want to deploy using GitHub Actions: https://vite.dev/guide/static-deploy.html#github-pages
-* If switch to custom domain rather than GitHub Pages extension /personal-website/, change basename to "/" in (1) App.jsx router basename, (2) package.json & (3) remove entire line `base: "/personal-website/",` in vite.config.js. Documentation: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site & https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages & https://github.com/tschaub/gh-pages/issues/127
+
+Custom Domain
+* Documentation: 
+  * https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site 
+  * https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages 
+  * https://github.com/tschaub/gh-pages/issues/127
+* If switch to custom domain rather than GitHub Pages extension /personal-website/, 
+  (1) change basename to `/` in App.jsx router basename, 
+  (2) remove entire line `"homepage": "https://magalibr.com/"` in package.json,
+  (3) remove entire line `base: "/personal-website/",` in vite.config.js. 
+  
+
+* If switch to GitHub Pages repo extension like https://magali-br.github.io/personal-website/
+  (1) change basename to `personal-website/` in App.jsx router basename, 
+  (2) add line `"homepage": "https://magali-br.github.io/personal-website/",` in package.json,
+  (3) add line `base: "/personal-website/",` in vite.config.js. 
+  
 
 ### Deployment on Vercel [not in use]
 
