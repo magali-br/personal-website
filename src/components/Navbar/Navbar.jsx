@@ -29,12 +29,12 @@ function Navbar() {
           </Link>
         </div>
         {/* Recipes and Blog are currently broken upon display */}
-        {/* <div className="MenuItemContainer">
+        <div className="MenuItemContainer">
           <Link to="/recipes">
             <span className="MenuItem">recipes</span>
           </Link>
         </div>
-        <div className="MenuItemContainer">
+        {/*  <div className="MenuItemContainer">
           <Link to="/blog">
             <span className="MenuItem">blog</span>
           </Link>
