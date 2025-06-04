@@ -59,15 +59,13 @@ Custom Domain
   * https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages 
   * https://github.com/tschaub/gh-pages/issues/127
 * If switch to custom domain rather than GitHub Pages extension /personal-website/, 
-  (1) change basename to `/` in App.jsx router basename, 
-  (2) remove entire line `"homepage": "https://magalibr.com/"` in package.json,
-  (3) remove entire line `base: "/personal-website/",` in vite.config.js. 
+  1. change basename to `/` in App.jsx router basename
+  1. remove entire line `base: "/personal-website/",` in vite.config.js. 
   
 
 * If switch to GitHub Pages repo extension like https://magali-br.github.io/personal-website/
-  (1) change basename to `personal-website/` in App.jsx router basename, 
-  (2) add line `"homepage": "https://magali-br.github.io/personal-website/",` in package.json,
-  (3) add line `base: "/personal-website/",` in vite.config.js. 
+  1. change basename to `personal-website/` in App.jsx router basename, 
+  1. add line `base: "/personal-website/",` in vite.config.js. 
   
 
 ### Deployment on Vercel [not in use]
