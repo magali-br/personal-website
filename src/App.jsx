@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Languages from "./pages/Languages/Languages";
 import Recipes from "./pages/Recipes/Recipes";
-import Recipe from "./pages/Recipe/Recipe";
+import RecipeDetail from "./pages/RecipeDetail/RecipeDetail";
 import Blog from "./pages/Blog/Blog";
 import BlogDetail from "./pages/BlogDetail/BlogDetail";
 import Books from "./pages/Books/Books";
@@ -23,7 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/languages" element={<Languages />} />
           <Route path="/recipes/*" element={<Recipes />} />
-          <Route path="/recipes/:id" element={<Recipe />} />
+          <Route path="/recipes/:id" element={<RecipeDetail />} />
           <Route path="/blog/*" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/books" element={<Books />} />

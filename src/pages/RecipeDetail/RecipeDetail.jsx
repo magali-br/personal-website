@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import MarkdownRenderer from "../../MarkdownRenderer";
 import recipeFiles from "../../recipesFiles.json";
 
-const Recipe = () => {
+const RecipeDetail = () => {
     const { id } = useParams();
     const [recipe, setRecipe] = useState(null);
 
@@ -40,4 +40,4 @@ const Recipe = () => {
     );
 };
 
-export default Recipe;
+export default RecipeDetail;
