@@ -1,4 +1,4 @@
-Ingredients:
+###Ingredients:
 * 6 tbsp. (85g) unsalted butter
 * ¾ c. (150g) granulated sugar
 * 227g semisweet chocolate
@@ -9,7 +9,7 @@ Ingredients:
 * ¼ tsp. salt
 
 
-Steps:
+###Steps:
 1. Preheat the oven to 350°F (175°C). Line an 8x8 or 9x9 inch (20-23 cm) square pan with foil (or use a metal one without foil), then lightly spray or butter, set aside.
 1. In a small saucepan set over low heat, melt the butter, then add the sugar. Once the sugar is incorporated, add the chopped chocolate, stirring until smooth. Remove from the heat beat for 2 minutes with a hand mixer or whisk. Add the eggs, one at a time, then the vanilla extract.
 1. Using a mesh sieve, sift the cocoa powder and cornstarch into the saucepan, then add the salt. Stir together, then beat the batter vigorously for 1-2 minutes. (I like to use a hand mixer for this on a medium speed.) Beat until the batter is smooth and shiny.

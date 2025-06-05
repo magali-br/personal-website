@@ -1,4 +1,4 @@
-Ingredients:
+###Ingredients:
 * 500g chicken breast, chopped into bite-sized pieces
 * 2 onions
 * 2 red peppers
@@ -10,11 +10,11 @@ Ingredients:
 * 200g mushrooms
 * 300 mL coconut milk
 * 2 limes
-* 12g chicken stock powder (ADD LESS)
+* 6g chicken stock powder
 * (optional) jasmine rice
 
 
-Steps:
+###Steps:
 1. Cook the rice, if desired.
 1. Heat oil, fry the pieces of chicken breasts.
 1. Add the peppers, mushrooms, green onions, ginger, and lemongrass.
