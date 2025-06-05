@@ -10,7 +10,7 @@ const Blog = () => {
     const loadBlogs = async () => {
       try {
         const contentPromises = blogFiles.map(async (file) => {
-          const contentResponse = await fetch(`/md/blog/${file}`);
+          const contentResponse = await fetch(`../../md/blog/${file}`);
           const content = await contentResponse.text();
           let slug = file.replaceAll(".md", "");
           slug = slug.replaceAll(" ", "-");

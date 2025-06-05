@@ -10,7 +10,8 @@ const Recipes = () => {
         const loadRecipes = async () => {
             try {
                 const contentPromises = recipeFiles.map(async (file) => {
-                    const contentResponse = await fetch(`/md/recipes/${file}`);
+                    const contentResponse =
+                        await fetch(`../../md/recipes/${file}`);
                     const content = await contentResponse.text();
                     let slug = file.replaceAll(".md", "");
                     slug = slug.replaceAll(" ", "-");
