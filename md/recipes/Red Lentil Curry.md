@@ -4,7 +4,7 @@ recipe-type: meal
 published-on: 2024-06-05
 ---
 
-###Ingredients:
+### Ingredients:
 * 2.5 tsp. curry powder
 * 1.5 tsp. garam masala
 * 1.5 tsp. ground turmeric
@@ -35,7 +35,7 @@ For serving:
 * Basmati or Jasmine rice
 * (optional) Indian flatbread such as roti, paratha, or naan
 
-###Steps:
+### Steps:
 1. Rinse the lentils in cold water until the water runs clear.
 1. Heat a large, deep skillet or large saucepan over medium-high heat and add coconut oil or another kind of oil. Once the oil is shimmering, add the garlic and ginger and cook for 2 minutes, stirring frequently to prevent garlic from burning (or add them later with the vegetables).
 1. Add and cook the vegetables.

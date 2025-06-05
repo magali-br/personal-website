@@ -6,7 +6,7 @@ published-on: 2024-06-05
 
 My dad makes the most delicious soups by tossing together a random set of vegetables into the pressure cooker and all sorts of bits and pieces. When my mom visited this June, we tried our hand at our own version, and I was pleasantly surprised to find that thanks to the 7 onions we threw in, it was nearly as flavourful as my dad's.
 
-###Ingredients:
+### Ingredients:
 * 3-7 onions
 * 2 cloves of garlic
 * Vegetables: red peppers, potatoes, carrots, a couple of tomatoes, ...
@@ -19,7 +19,7 @@ My dad makes the most delicious soups by tossing together a random set of vegeta
 * fresh herbs (oregano, thyme, whatever you have lying around) or dried herbe de provence
 
 
-###Steps:
+### Steps:
 1. Heat some oil and fry the onions.
 1. Add all the vegetables and enough water to cover them up completely.
 1. Bring to a boil and simmer for a couple of hours.
