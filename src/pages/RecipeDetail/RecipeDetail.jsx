@@ -16,7 +16,7 @@ const RecipeDetail = () => {
                 });
 
                 if (filename) {
-                    const contentResponse = await fetch(`/md/recipes/${filename}`);
+                    const contentResponse = await fetch(`../../md/recipes/${filename}`);
                     const content = await contentResponse.text();
                     setRecipe({ content, filename, slug: id });
                 }
