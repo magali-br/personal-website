@@ -7,26 +7,17 @@ const Blog = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const loadBlogs = async () => {
-      try {
-        const contentPromises = blogFiles.map(async (file) => {
-          const contentResponse = await fetch(`/md/blog/${file}`);
-          const content = await contentResponse.text();
-          let slug = file.replaceAll(".md", "");
-          slug = slug.replaceAll(" ", "-");
-          return { content, filename: file, slug };
-        });
-        const markdownContents = await Promise.all(contentPromises);
-
-        setBlogs(markdownContents);
+    const loadBlogList = async () => {
+      const blogs = blogFiles.map(async (file) => {
+        let filename = file.replaceAll(".md", "");
+        let slug = filename.replaceAll(" ", "-");
         setLoading(false);
-      } catch (error) {
-        console.error("Error loading blogs:", error.message);
-        setLoading(false);
-      }
+        return { filename, slug };
+      });
+      setBlogs(await Promise.all(blogs));
     };
 
-    loadBlogs();
+    loadBlogList();
   }, []);
 
   return (
@@ -40,7 +31,7 @@ const Blog = () => {
             {blogs.map((blog, index) => (
               <li key={index} className="BlogTitle Bold">
                 <Link to={`/blog/${blog.slug}`}>
-                  {blog.filename.replace(".md", "")}
+                  {blog.filename}
                 </Link>
               </li>
             ))}
