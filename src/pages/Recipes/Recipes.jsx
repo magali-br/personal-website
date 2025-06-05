@@ -7,26 +7,17 @@ const Recipes = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const loadRecipes = async () => {
-            try {
-                const contentPromises = recipeFiles.map(async (file) => {
-                    const contentResponse = await fetch(`/md/recipes/${file}`);
-                    const content = await contentResponse.text();
-                    let slug = file.replaceAll(".md", "");
-                    slug = slug.replaceAll(" ", "-");
-                    return { content, filename: file, slug };
-                });
-                const markdownContents = await Promise.all(contentPromises);
-
-                setRecipes(markdownContents);
+        const loadRecipeList = async () => {
+            const recipes = recipeFiles.map(file => {
+                let recipeName = file.replace(".md", "")
+                let slug = recipeName.replaceAll(" ", "-");
                 setLoading(false);
-            } catch (error) {
-                console.error("Error loading recipes:", error.message);
-                setLoading(false);
-            }
+                return { recipeName, slug };
+            });
+            setRecipes(await Promise.all(recipes));
         };
 
-        loadRecipes();
+        loadRecipeList();
     }, []);
 
     return (
@@ -40,7 +31,7 @@ const Recipes = () => {
                         {recipes.map((recipe, index) => (
                             <li key={index} className="RecipeTitle Bold">
                                 <Link to={`/recipes/${recipe.slug}`}>
-                                    {recipe.filename.replace(".md", "")}
+                                    {recipe.recipeName}
                                 </Link>
                             </li>
                         ))}

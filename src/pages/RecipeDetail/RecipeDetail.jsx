@@ -11,7 +11,8 @@ const RecipeDetail = () => {
         const loadRecipe = async () => {
             try {
                 const filename = recipeFiles.find((file) => {
-                    const slug = file.replaceAll(".md", "").replaceAll(" ", "-");
+                    const slug =
+                        file.replaceAll(".md", "").replaceAll(" ", "-");
                     return slug === id;
                 });
 
