@@ -1,3 +1,9 @@
+---
+title: Tom Kha Gai (Thai Coconut Soup)
+recipe-type: meal
+published-on: 2024-06-04
+---
+
 ###Ingredients:
 * 500g chicken breast, chopped into bite-sized pieces
 * 2 onions

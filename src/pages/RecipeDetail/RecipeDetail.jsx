@@ -1,7 +1,19 @@
+import "./RecipeDetail.css";
+
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import MarkdownRenderer from "../../MarkdownRenderer";
+import metadataParser from 'markdown-yaml-metadata-parser'
 import recipeFiles from "../../recipesFiles.json";
+
+const RecipePhoto = (imageName, recipeTitle) => {
+    if (!imageName) {
+        return <div />;
+    }
+    return <img src={"/img/" + imageName}
+        alt={"A photo of " + recipeTitle}
+    />;
+}
 
 const RecipeDetail = () => {
     const { id } = useParams();
@@ -20,7 +32,13 @@ const RecipeDetail = () => {
                     const contentResponse =
                         await fetch(`/md/recipes/${filename}`);
                     const content = await contentResponse.text();
-                    setRecipe({ content, filename, slug: id });
+                    const result = metadataParser(content);
+                    setRecipe({
+                        content,
+                        filename,
+                        slug: id,
+                        metadata: result.metadata
+                    });
                 }
             } catch (error) {
                 console.error("Error loading recipe:", error.message);
@@ -36,7 +54,8 @@ const RecipeDetail = () => {
 
     return (
         <div className="Container Blog">
-            <h2 className="Subtitle">{recipe.filename.replace(".md", "")}</h2>
+            <h2 className="Subtitle">{recipe.metadata.title}</h2>
+            {RecipePhoto(recipe.metadata.image, recipe.metadata.title)}
             <MarkdownRenderer content={recipe.content} />
         </div>
     );

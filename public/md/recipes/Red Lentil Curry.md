@@ -1,3 +1,9 @@
+---
+title: Red Lentil Nut Butter Curry
+recipe-type: meal
+published-on: 2024-06-05
+---
+
 ###Ingredients:
 * 2.5 tsp. curry powder
 * 1.5 tsp. garam masala
