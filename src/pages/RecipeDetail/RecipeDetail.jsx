@@ -10,7 +10,7 @@ const RecipePhoto = (imageName, recipeTitle) => {
     if (!imageName) {
         return <div />;
     }
-    return <img src={"/img/" + imageName}
+    return <img className="RecipeDetailImage" src={"/img/" + imageName}
         alt={"A photo of " + recipeTitle}
     />;
 }
