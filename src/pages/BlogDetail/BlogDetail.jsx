@@ -16,7 +16,7 @@ const BlogDetail = () => {
         });
 
         if (filename) {
-          const contentResponse = await fetch(`../../md/blog/${filename}`);
+          const contentResponse = await fetch(`/public/md/blog/${filename}`);
           const content = await contentResponse.text();
           setBlog({ content, filename, slug: id });
         }

@@ -7,7 +7,7 @@ const generateFileListsSmart = async () => {
   for (let i in prefixes) {
     let prefix = prefixes[i]
     try {
-      const files = await fs.readdir('./src/md/' + prefix);
+      const files = await fs.readdir('./public/md/' + prefix);
       const fileList = JSON.stringify(files, null, 2);
       const generatedFileName = './src/' + prefix + 'Files.json';
       await fs.writeFile(generatedFileName, fileList);
