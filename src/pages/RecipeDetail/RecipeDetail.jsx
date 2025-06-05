@@ -27,6 +27,7 @@ const RecipePhoto = (recipe) => {
 const RecipeDetail = () => {
     const { id } = useParams();
     const [recipe, setRecipe] = useState(null);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const loadRecipe = async () => {
@@ -50,23 +51,27 @@ const RecipeDetail = () => {
                             (result && result.metadata) ? result.metadata : {}
                     });
                 }
+                setLoading(false);
             } catch (error) {
                 console.error("Error loading recipe:", error.message);
+                setLoading(false);
             }
         };
 
         loadRecipe();
     }, [id]);
 
-    if (!recipe) {
-        return <p></p>;
-    }
-
     return (
-        <div className="Container Blog">
-            <h2 className="Subtitle">{RecipeTitle(recipe)}</h2>
-            {RecipePhoto(recipe)}
-            <MarkdownRenderer content={recipe.content} />
+        <div className="Container">
+            {loading ? (
+                <p>Loading...</p>
+            ) : (
+                <div>
+                    <h2 className="Subtitle">{RecipeTitle(recipe)}</h2>
+                    {RecipePhoto(recipe)}
+                    <MarkdownRenderer content={recipe.content} />
+                </div>
+            )}
         </div>
     );
 };
