@@ -1,5 +1,5 @@
 ---
-title: Flourless Brownies
+title: Melt-in-your-mouth Flourless Brownies
 recipe-type: dessert
 image: Brownies.jpg
 published-on: 2025-05-31

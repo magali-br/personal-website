@@ -33,11 +33,11 @@ function Navbar() {
             <span className="MenuItem">recipes</span>
           </Link>
         </div>
-        <div className="MenuItemContainer">
+        {/* <div className="MenuItemContainer">
           <Link to="/blog">
             <span className="MenuItem">blog</span>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
