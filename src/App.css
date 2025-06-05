@@ -66,6 +66,14 @@ button {
   text-decoration: line-through;
 }
 
+.Bold {
+  font-weight: bold;
+}
+
+.Italic {
+  font-style: italic;
+}
+
 .Subtitle {
   width: fit-content;
   margin-bottom: 10px;
