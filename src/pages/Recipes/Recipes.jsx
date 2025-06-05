@@ -14,9 +14,9 @@ const Recipes = () => {
                     const contentResponse = await fetch(`/md/recipes/${file}`);
                     const content = await contentResponse.text();
                     const metadata = metadataParser(content).metadata;
-                    let slug = file.replace(".md", "")
-                    slug = slug.replaceAll(" ", "-");
-                    return { content, slug, metadata };
+                    let recipeFileName = file.replace(".md", "")
+                    let slug = recipeFileName.replaceAll(" ", "-");
+                    return { recipeFileName, content, slug, metadata };
                 });
                 setRecipes(await Promise.all(recipePromises));
                 setLoading(false);
@@ -40,7 +40,8 @@ const Recipes = () => {
                         {recipes.map((recipe, index) => (
                             <li key={index} className="RecipeTitle Bold">
                                 <Link to={`/recipes/${recipe.slug}`}>
-                                    {recipe.metadata.title}
+                                    {recipe.recipeFileName}
+                                    {/* {recipe.metadata.title} */}
                                 </Link>
                             </li>
                         ))}
