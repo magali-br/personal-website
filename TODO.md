@@ -5,16 +5,19 @@
 - [x] Make README my own
 - [x] Have single logic for parsing Blogs and Recipes and Language resources pages
 - [x] Improve CSS logic
+- [x] Create a domain
+- [x] Apply domain - see README for links
+- [x] Fix refresh not working on subpages (sub-URLs not working)
+- [x] Fix recipe display not working (linked to sub-URLs not working?)
 
-- [] Create a domain
-- [] Apply domain - see README for links
 - [] Download fonts locally for GDPR
   - Google Fonts and GDPR: https://www.cookieyes.com/documentation/google-fonts-and-gdpr/ 
   - https://developers.google.com/fonts/faq/privacy
   - https://www.wpeka.com/google-fonts-gdpr.html 
   - OMGF for local fonts with wordpress https://daan.dev/wordpress/omgf/
 - [] Completely clean up CSS
-- [] Figure out how to route using basename - currently ignores it
+- [] Cleanup embedded Google Docs / iFrame errors
+- [] Fix Google Docs layout not working on phone
 
 ## Misc
 - [] Add link to Instagram page: either handle @offbeatcoaching or instagram logo 
@@ -27,11 +30,13 @@
 - [x] Make more professional
 - [x] Experiment with colours
 
+- [] Remove empty white space below the copyright
+- [] In phone mode, make menu vertical
+- [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
+
 ## Version control
 - [x] Upload to private Github repo
 - [x] Set up on Github Pages repo
-
-- [] Set up on Vercel? and set up syncing to Vercel
 
 ## Language resources
 - [] Structure Language Resources: add dropdown on Navbar and list going to separate page for each language
@@ -39,7 +44,7 @@
 - [] Add language resources for Spanish
 
 ## Recipes & conversions
-- [] Expand generate-blog-list to also work for Recipes
+- [x] Expand generate-blog-list to also work for Recipes
 - [] Separate recipes into desserts, mains, and sides  - separate MD folders too
 - [] Random recipe selector for every category (desserts, mains, sides)
 - [] Explore https://github.com/TandoorRecipes/recipes
@@ -47,6 +52,7 @@
 
 ## Coaching
 - [x] Create values generator for weekly inspiration
+
 
 
 
