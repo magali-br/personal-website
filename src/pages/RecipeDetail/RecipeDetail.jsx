@@ -41,7 +41,7 @@ const RecipeDetail = () => {
                     const contentResponse =
                         await fetch(`/md/recipes/${filename}`);
                     const content = await contentResponse.text();
-                    const result = metadataParser(content);
+                    const result = {}; // metadataParser(content);
                     setRecipe({
                         content,
                         fallbackRecipeTitle: filename.replaceAll(".md", ""),
