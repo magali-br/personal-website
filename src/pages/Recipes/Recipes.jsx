@@ -40,7 +40,7 @@ const Recipes = () => {
                         {recipes.map((recipe, index) => (
                             <li key={index} className="RecipeTitle Bold">
                                 <Link to={`/recipes/${recipe.slug}`}>
-                                    {recipe.recipeFileName}
+                                    {recipe.recipeFileName + " & metadata title: " + recipe.metadata.title}
                                     {/* {recipe.metadata.title} */}
                                 </Link>
                             </li>
