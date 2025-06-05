@@ -48,7 +48,7 @@ const Recipes = () => {
                 </div>
             )}
             <p className="Italic RecipeIntro">
-                N.B.: These recipes are optimized for my kitchen. You might need to adapt them to yours, especially baking times and oven temperatures!
+                N.B.: These recipes are optimized for my kitchen. You might need to adapt baking times and oven temperatures to yours!
             </p>
         </div>
     );

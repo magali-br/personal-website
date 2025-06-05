@@ -9,4 +9,4 @@ Steps:
 1. Slow version: Place overnight in the fridge. Fast version: Place in freezer for 1 hour. (If you forget it, you'll just have to let it thaw in the fridge. It should be as cold as possible, even quite hard, but not completely frozen, when you whip it.)
 1. Whip with an electric whip. It should solidify into mousse consistency almost instantly.
 
-*last updated 2025-05-31*
+*last update 2025-05-31*
