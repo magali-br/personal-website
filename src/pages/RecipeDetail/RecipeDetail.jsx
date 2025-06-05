@@ -35,9 +35,10 @@ const RecipeDetail = () => {
                     const result = metadataParser(content);
                     setRecipe({
                         content,
-                        filename,
+                        fallbackRecipeTitle: filename.replaceAll(".md", ""),
                         slug: id,
-                        metadata: result.metadata
+                        metadata:
+                            (result && result.metadata) ? result.metadata : {}
                     });
                 }
             } catch (error) {
@@ -54,7 +55,12 @@ const RecipeDetail = () => {
 
     return (
         <div className="Container Blog">
-            <h2 className="Subtitle">{recipe.metadata.title}</h2>
+            <h2 className="Subtitle">
+                {recipe.metadata.title ?
+                    recipe.metadata.title :
+                    recipe.fallbackRecipeTitle
+                }
+            </h2>
             {RecipePhoto(recipe.metadata.image, recipe.metadata.title)}
             <MarkdownRenderer content={recipe.content} />
         </div>
