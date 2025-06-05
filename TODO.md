@@ -15,7 +15,7 @@
   - https://developers.google.com/fonts/faq/privacy
   - https://www.wpeka.com/google-fonts-gdpr.html 
   - OMGF for local fonts with wordpress https://daan.dev/wordpress/omgf/
-- [] Completely clean up CSS
+- [] Clean up CSS
 - [] Cleanup embedded Google Docs / iFrame errors
 - [] Fix Google Docs layout not working on phone
 
@@ -29,8 +29,9 @@
 - [x] Change basic look
 - [x] Make more professional
 - [x] Experiment with colours
+- [x] Remove empty white space below the copyright
+- [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
 
-- [] Remove empty white space below the copyright
 - [] In phone mode, make menu vertical
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
 
