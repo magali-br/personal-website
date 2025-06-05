@@ -6,13 +6,22 @@ import MarkdownRenderer from "../../MarkdownRenderer";
 import metadataParser from 'markdown-yaml-metadata-parser'
 import recipeFiles from "../../recipesFiles.json";
 
-const RecipePhoto = (imageName, recipeTitle) => {
-    if (!imageName) {
-        return <div />;
+const RecipeTitle = (recipe) => {
+    if (recipe.metadata && recipe.metadata.title) {
+        return recipe.metadata.title;
     }
-    return <img className="RecipeDetailImage" src={"/img/" + imageName}
-        alt={"A photo of " + recipeTitle}
-    />;
+    return recipe.fallbackRecipeTitle;
+}
+
+const RecipePhoto = (recipe) => {
+    if (recipe.metadata && recipe.metadata.image) {
+        return <img
+            className="RecipeDetailImage"
+            src={"/img/" + recipe.metadata.image}
+            alt={"A photo of " + RecipeTitle(recipe)}
+        />;
+    }
+    return <div />;
 }
 
 const RecipeDetail = () => {
@@ -32,7 +41,7 @@ const RecipeDetail = () => {
                     const contentResponse =
                         await fetch(`/md/recipes/${filename}`);
                     const content = await contentResponse.text();
-                    const result = metadataParser(content);
+                    const result = {};// metadataParser(content);
                     setRecipe({
                         content,
                         fallbackRecipeTitle: filename.replaceAll(".md", ""),
@@ -55,13 +64,8 @@ const RecipeDetail = () => {
 
     return (
         <div className="Container Blog">
-            <h2 className="Subtitle">
-                {recipe.metadata.title ?
-                    recipe.metadata.title :
-                    recipe.fallbackRecipeTitle
-                }
-            </h2>
-            {RecipePhoto(recipe.metadata.image, recipe.metadata.title)}
+            <h2 className="Subtitle">{RecipeTitle(recipe)}</h2>
+            {RecipePhoto(recipe)}
             <MarkdownRenderer content={recipe.content} />
         </div>
     );
