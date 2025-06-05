@@ -13,12 +13,16 @@ function Home() {
           about me
         </Link>
         {" "}or come explore
+        <Link className="VisibleLink" to="/recipes">
+          {" "}recipes
+        </Link>
+        ,
         <Link className="VisibleLink" to="/languages">
           {" "}language resources
         </Link>
         ,
         <Link className="VisibleLink" to="/books">
-          {"  "}book recommendations
+          {" "}book recommendations
         </Link>
         ,
         <Link className="VisibleLink" to="/coaching">
@@ -27,8 +31,12 @@ function Home() {
       </p>
       <div>
         <h2 className="Subtitle">Something to say?</h2>
+        <p>Are you curious about working with me as a coach?</p>
         <p>
-          Are you curious about working with me as a coach? Is there is a language resource you'd like to contribute or see here? Do you have a question on a recipe, or a comment on a book? Send me a message on{" "}
+          Is there is a language resource you'd like to contribute or see here?
+        </p>
+        <p>Do you have a question about a recipe, or a comment on a book?</p>
+        <p> Send me a message on{" "}
           <a
             className="VisibleLink Link"
             href="https://www.linkedin.com/in/magali-br/"
@@ -49,7 +57,7 @@ function Home() {
           .
         </p>
       </div>
-    </div>
+    </div >
   );
 }
 
