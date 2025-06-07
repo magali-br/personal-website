@@ -43,7 +43,13 @@ const RecipeDetail = () => {
         return;
       }
       const content = await fetch(`/md/recipes/${filename}`).then(
-        (contentResponse) => contentResponse.text()
+        (contentResponse) => {
+          if (contentResponse.ok) {
+            return contentResponse.text();
+          } else {
+            throw new Error(res.statusText);
+          }
+        }
       );
       const metadataParserResult = metadataParser(content);
 
