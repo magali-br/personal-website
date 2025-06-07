@@ -6,13 +6,20 @@ function About() {
       <div className="AboutQuestion">
         <h2 className="Subtitle">Hi, I'm Magali.</h2>
         <div>
-          <img className="AboutImage" src={"/img/Magali.jpg"}
-            alt={"A photo of Magali lying on the snow in front of the Matterhorn"}
+          <img
+            className="AboutImage"
+            src={"/img/explorer_in_jungle_square.jpg"}
+            alt={"A photo of Magali as an explorer, peering out of a jungle"}
           />
         </div>
         <p>
-          I'm a coach, linguist, writer, dancer, and software engineer, passionate about experiencing wonder and making the world a better place. <br /> <br />
-          As a generalist who never gets tired of jumping into new projects, I love to explore, discover, and connect ideas. I am a shapeshifter, travelling between worlds and balancing out the specialists who prefer to dive deep.
+          I'm a coach, linguist, writer, dancer, and software engineer,
+          passionate about experiencing wonder and making the world a better
+          place. <br /> <br />
+          As a generalist who never gets tired of jumping into new projects, I
+          love to explore, discover, and connect ideas. I am a shapeshifter,
+          travelling between worlds and balancing out the specialists who prefer
+          to dive deep.
         </p>
       </div>
       <div className="AboutQuestion">
