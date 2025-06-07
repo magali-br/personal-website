@@ -47,6 +47,7 @@ const RecipeDetail = () => {
             content: metadataParserResult.content
               ? metadataParserResult.content
               : content,
+            originalContent: content,
             metadata: metadataParserResult.metadata,
             fallbackRecipeTitle: filename.replaceAll(".md", ""),
             slug: id,
@@ -71,6 +72,12 @@ const RecipeDetail = () => {
           <h2 className="Subtitle">{RecipeTitle(recipe)}</h2>
           {RecipePhoto(recipe)}
           <MarkdownRenderer content={recipe.content} />
+          <hr></hr>
+          <p>Debug</p>
+          <hr></hr>
+          {recipe.originalContent}
+          <hr></hr>
+          {recipe.content}
         </div>
       )}
     </div>
