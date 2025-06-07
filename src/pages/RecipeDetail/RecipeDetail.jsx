@@ -33,31 +33,30 @@ const RecipeDetail = () => {
 
   useEffect(() => {
     const loadRecipe = async () => {
-      try {
-        const filename = recipeFiles.find((file) => {
-          const slug = file.replaceAll(".md", "").replaceAll(" ", "-");
-          return slug === id;
-        });
+      const filename = recipeFiles.find((file) => {
+        const slug = file.replaceAll(".md", "").replaceAll(" ", "-");
+        return slug === id;
+      });
 
-        if (filename) {
-          const contentResponse = await fetch(`/md/recipes/${filename}`);
-          const content = await contentResponse.text();
-          const metadataParserResult = metadataParser(content);
-          setRecipe({
-            content: metadataParserResult.content
-              ? metadataParserResult.content
-              : content,
-            originalContent: content,
-            metadata: metadataParserResult.metadata,
-            fallbackRecipeTitle: filename.replaceAll(".md", ""),
-            slug: id,
-          });
-        }
+      if (!filename) {
         setLoading(false);
-      } catch (error) {
-        console.error("Error loading recipe:", error.message);
-        setLoading(false);
+        return;
       }
+      const content = await fetch(`/md/recipes/${filename}`).then(
+        (contentResponse) => contentResponse.text()
+      );
+      const metadataParserResult = metadataParser(content);
+
+      setRecipe({
+        content: metadataParserResult.content
+          ? metadataParserResult.content
+          : content,
+        originalContent: content,
+        metadata: metadataParserResult.metadata,
+        fallbackRecipeTitle: filename.replaceAll(".md", ""),
+        slug: id,
+      });
+      setLoading(false);
     };
 
     loadRecipe();
