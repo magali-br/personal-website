@@ -42,27 +42,26 @@ const RecipeDetail = () => {
         setLoading(false);
         return;
       }
-      const content = await fetch(`/md/recipes/${filename}`).then(
-        (contentResponse) => {
-          if (contentResponse.ok) {
-            return contentResponse.text();
-          } else {
-            throw new Error(contentResponse.statusText);
-          }
-        }
-      );
-      const metadataParserResult = metadataParser(content);
 
-      setRecipe({
-        content: metadataParserResult.content
-          ? metadataParserResult.content
-          : content,
-        originalContent: content,
-        metadata: metadataParserResult.metadata,
-        fallbackRecipeTitle: filename.replaceAll(".md", ""),
-        slug: id,
-      });
-      setLoading(false);
+      try {
+        const content = await fetch(`/md/recipes/${filename}`).then(
+          (contentResponse) => contentResponse.text()
+        );
+        const metadataParserResult = metadataParser(content);
+
+        setRecipe({
+          content: metadataParserResult.content
+            ? metadataParserResult.content
+            : content,
+          originalContent: content,
+          metadata: metadataParserResult.metadata,
+          fallbackRecipeTitle: filename.replaceAll(".md", ""),
+          slug: id,
+        });
+        setLoading(false);
+      } catch (error) {
+        console.error("Error loading recipe:", error.message);
+      }
     };
 
     loadRecipe();
