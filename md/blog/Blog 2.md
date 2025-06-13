@@ -1,7 +1,7 @@
 ---
 title: Blog 2
-blog-type: meal
-published-on: 2024-06-05
+blog-type: random
+published-on: 2023-08-26
 ---
 
 This is the text body of blog 2
