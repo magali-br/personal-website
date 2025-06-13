@@ -28,6 +28,7 @@ const BlogDetail = () => {
     loadBlog();
   }, [id]);
 
+  //  TODO(mbr): Fix this according to how I did in RecipeDetail before displaying.
   if (!blog) {
     return <p></p>;
   }
