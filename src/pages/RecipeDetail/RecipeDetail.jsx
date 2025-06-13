@@ -47,7 +47,7 @@ const RecipeDetail = () => {
           if (contentResponse.ok) {
             return contentResponse.text();
           } else {
-            throw new Error(res.statusText);
+            throw new Error(contentResponse.statusText);
           }
         }
       );

@@ -14,13 +14,13 @@ function Navbar() {
           </Link>
         </div>
         <div className="MenuItemContainer">
-          <Link to="/languages">
-            <span className="MenuItem">languages</span>
+          <Link to="/coaching">
+            <span className="MenuItem">coaching</span>
           </Link>
         </div>
         <div className="MenuItemContainer">
-          <Link to="/coaching">
-            <span className="MenuItem">coaching</span>
+          <Link to="/languages">
+            <span className="MenuItem">languages</span>
           </Link>
         </div>
         <div className="MenuItemContainer">
