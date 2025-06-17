@@ -49,10 +49,6 @@ const RecipeDetail = () => {
         );
         const metadataParserResult = metadataParser(content);
 
-        console.log("Debug");
-        console.log("Response content: " + content);
-        console.log("Parsed content: " + metadataParserResult.content);
-
         setRecipe({
           content: metadataParserResult.content
             ? metadataParserResult.content
