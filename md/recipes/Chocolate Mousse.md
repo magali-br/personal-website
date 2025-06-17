@@ -1,6 +1,8 @@
+---
 recipe-type: dessert
 title: Eggless Chocolate Mousse
 published-on: 2023-12-04
+---
 
 ### Ingredients:
 
