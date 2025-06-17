@@ -35,7 +35,7 @@ const BlogDetail = () => {
 
   return (
     <div className="Container BlogDetail">
-      <h2 className="Subtitle">{blog.filename.replace(".md", "")}</h2>
+      <h1 className="Subtitle">{blog.filename.replace(".md", "")}</h1>
       <MarkdownRenderer content={blog.content} />
     </div>
   );

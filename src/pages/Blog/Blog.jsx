@@ -22,7 +22,7 @@ const Blog = () => {
 
   return (
     <div className="Container Blog">
-      <h2 className="Subtitle">Blog entries</h2>
+      <h1 className="Subtitle">Blog entries</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
@@ -30,9 +30,7 @@ const Blog = () => {
           <ul>
             {blogs.map((blog, index) => (
               <li key={index} className="BlogTitle Bold">
-                <Link to={`/blog/${blog.slug}`}>
-                  {blog.filename}
-                </Link>
+                <Link to={`/blog/${blog.slug}`}>{blog.filename}</Link>
               </li>
             ))}
           </ul>

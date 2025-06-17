@@ -73,7 +73,7 @@ const RecipeDetail = () => {
         <p>Loading...</p>
       ) : (
         <div>
-          <h2 className="Subtitle">{RecipeTitle(recipe)}</h2>
+          <h1 className="Subtitle">{RecipeTitle(recipe)}</h1>
           {RecipePhoto(recipe)}
           <MarkdownRenderer content={recipe.content} />
         </div>

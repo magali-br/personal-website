@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="About Container">
       <div className="AboutQuestion">
-        <h2 className="Subtitle">Hi, I'm Magali.</h2>
+        <h1 className="Subtitle">Hi, I'm Magali.</h1>
         <div>
           <img
             className="AboutImage"
@@ -23,7 +23,7 @@ function About() {
         </p>
       </div>
       <div className="AboutQuestion">
-        <h2 className="Subtitle">How do you pronounce that?</h2>
+        <h1 className="Subtitle">How do you pronounce that?</h1>
         <p>
           My name is Magali, pronounced
           <li>['mæ:gəli] i.e. MA-guh-lee in English,</li>
