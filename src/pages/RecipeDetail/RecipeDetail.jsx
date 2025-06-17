@@ -45,9 +45,13 @@ const RecipeDetail = () => {
 
       try {
         const content = await fetch(`/md/recipes/${filename}`).then(
-          (contentResponse) => contentResponse.text()
+          (response) => response.text()
         );
         const metadataParserResult = metadataParser(content);
+
+        console.log("Debug");
+        console.log("Response content: " + content);
+        console.log("Parsed content: " + metadataParserResult.content);
 
         setRecipe({
           content: metadataParserResult.content
@@ -76,12 +80,6 @@ const RecipeDetail = () => {
           <h2 className="Subtitle">{RecipeTitle(recipe)}</h2>
           {RecipePhoto(recipe)}
           <MarkdownRenderer content={recipe.content} />
-          <hr></hr>
-          <p>Debug</p>
-          <hr></hr>
-          {recipe.originalContent}
-          <hr></hr>
-          {recipe.content}
         </div>
       )}
     </div>
