@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+.About p {
+  padding-bottom: 10px;
+}
+
 .AboutImage {
   width: 40%;
   border-radius: 8px;

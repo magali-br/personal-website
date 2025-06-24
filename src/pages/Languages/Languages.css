@@ -1,17 +1,17 @@
 .Languages p {
-    text-align: left;
-    padding-top: 10px;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 .LanguageResource {
-    margin: 10px 0;
-    text-align: left;
+  margin: 10px 0;
+  text-align: left;
 }
 
 .LanguageResourceTitle {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .LanguageResourceLink {
-    text-decoration: underline;
+  text-decoration: underline;
 }
