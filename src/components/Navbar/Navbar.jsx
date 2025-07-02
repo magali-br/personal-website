@@ -19,6 +19,11 @@ function Navbar() {
           </Link>
         </div>
         <div className="MenuItemContainer">
+          <Link to="/coachingtools">
+            <span className="MenuItem">coaching tools</span>
+          </Link>
+        </div>
+        <div className="MenuItemContainer">
           <Link to="/languages">
             <span className="MenuItem">languages</span>
           </Link>

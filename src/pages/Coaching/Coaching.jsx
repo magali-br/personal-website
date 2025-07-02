@@ -1,29 +1,123 @@
 import "./Coaching.css";
 import React, { useEffect, useState } from "react";
-import valuesFile from "../../values.json";
+// import Calendar from "./Calendar";
 
 function Coaching() {
-  const getRandomObject = (array) => {
-    const randomObject = array[Math.floor(Math.random() * array.length)];
-    return randomObject.toLowerCase();
-  };
-
-  const [randomValue, setRandomValue] = useState(null);
-  const regenerateValue = () => {
-    setRandomValue(getRandomObject(valuesFile));
-  };
-
   return (
     <div className="Coaching Container">
       <h1 className="Subtitle">What is coaching?</h1>
       <div className="TextContent">
-        I am passionate about the coaching modality because I don't think any of
-        us need to be told what to do, and I deeply believe that for change to
-        last, it must come from within. Coaching creates a safe space for you to
-        reflect, process, and express yourself. It amplifies your voice and
-        helps surface what is already inside of you.
+        <b>
+          Coaching is a space for you to reflect, process, and express yourself.{" "}
+        </b>
+        It amplifies your voice and helps surface what is already inside of you.{" "}
+        <b>
+          It gives you the tools to design and step into a life that you
+          actually want, to unblock yourself, and to pursue your dreams.
+        </b>
+        <p>
+          I am passionate about the coaching modality because I don't think any
+          of us need to be told what to do, and I know that for change to last,
+          it must come from within.
+        </p>
+        <p>
+          <b>Coaching is not mentoring</b>: as a coach, I never assume that the
+          solutions that worked for me are going to work with you. However, I
+          may sometimes ask for permission to put on my mentor hat if I feel
+          that sharing my past experience could be useful to you.
+        </p>
+        <p>
+          <b>Coaching is not therapy</b>: I am not a licensed therapist, and I
+          cannot take on that responsibility. However, coaching can be a great
+          companion to therapy because it empowers us and gives us agency over
+          our life. I have experienced a lot of mental health setbacks in my
+          life, and coaching is what gave me the tools to finally pull myself
+          forwards.
+        </p>
+        <p>
+          Our coaching sessions together will involve a lot of talking and
+          digging deep into what's going on in your life, heart, gut, and mind.
+          If you're open to it, we might also try visualizations, meditations,
+          or grounding dance and movement practices. But you get to decide every
+          step of the way what feels good and what you need and want.
+        </p>
       </div>
-      <h2 className="Subsubtitle">Coaching is... witnessing.</h2>
+
+      <h1 className="Subtitle">Offbeat Coaching</h1>
+      <div className="TextContent">
+        I founded Offbeat Coaching with a big mission. I dream of a world in
+        which empathy is the norm, and in which we recognize every one of our
+        strengths and celebrate every difference.{" "}
+        <p>
+          <b>
+            I want every person on this planet to:
+            <li>wholeheartedly embrace who they are</li>
+            <li>feel safe and deserving enough to share it with the world</li>
+            <li>create and step into their own unique path</li>
+            <li>pursue their passions and live with purpose</li>{" "}
+          </b>
+        </p>
+        <p>
+          For some people this comes easy; for many others, it doesn't. I think
+          of those of us who are highly sensitive or neurodivergent and were
+          always made to feel we were "too much". Of those of us in oppressive
+          cultures or societies, who face threats simply for being who they are
+          or loving who they do. But this is the world I dream of.{" "}
+        </p>
+      </div>
+
+      <h1 className="Subtitle">Magali the Coach</h1>
+      <div className="TextContent">
+        Early in 2024, after ten years in tech, nine years working as a software
+        engineer and tech lead at Google, and two long burnouts, I finally
+        decided that I'd had enough. I'd been craving new adventures and a path
+        that felt more aligned for years, but I couldn't figure out in which
+        direction to go, and it was working with a coach that finally gave me
+        the courage to take the leap.
+        <p>
+          In June, I left my safe job. The space and time to myself finally gave
+          me the energy to make the changes in myself that I had been trying to
+          make for years. Six months later, I decided to honour an idea I'd had
+          for years and took the leap to becoming a coach.
+        </p>
+        <p>
+          I value deep empathy, honesty, authenticity, and vulnerability. I
+          celebrate every act of courage, especially when it comes to digging
+          deeper, understanding my triggers, and facing my fears. My favourite
+          emotions to experience are joy, awe, and wonder. I live my life in
+          pursuit of freedom - liberation from everything that isn't serving me,
+          whether expectations or fear, whether internally or externally
+          imposed.
+        </p>
+      </div>
+
+      <h1 className="Subtitle">Book a coaching session</h1>
+      <div className="TextContent">
+        If you're intrigued, book an introductory session to experience what it
+        would feel like to work with me!
+      </div>
+      <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
+        <iframe
+          src="https://tidycal.com/offbeatcoaching"
+          width="100%"
+          height="800px"
+          frameBorder="0"
+        ></iframe>
+      </div>
+      <div className="TextContent">
+        You can also message me on{" "}
+        <a
+          className="VisibleLink Link"
+          href="https://www.instagram.com/offbeatcoaching/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        .
+      </div>
+
+      {/* <h2 className="Subsubtitle">Coaching is... witnessing.</h2>
       <div className="TextContent">
         I spent so long repressing so many parts of me that in order to heal, I
         needed to welcome back everything I had labelled as negative: all my
@@ -66,30 +160,7 @@ function Coaching() {
         this allows you to rewrite how you see yourself and how you interact
         with the world. Awareness is always the first step to change... and
         sometimes it's enough.
-      </div>
-      <h1 className="Subtitle">Coaching Tools</h1>
-      <h2 className="Subsubtitle">Values Generator</h2>
-      <div className="Interactive">
-        <button type="button" onClick={regenerateValue}>
-          Generate a value
-        </button>
-        <div className="ValueName">{randomValue}</div>
-      </div>
-      <div className="TextContent">
-        Values are a great tool for living more purposefully. The first step is
-        to figure out what values are important to you, then to try to align
-        your life more with them.
-      </div>
-      <div className="TextContent">
-        If life feels a bit aimless or overwhelming right now, or if you're just
-        looking for some inspiration, generate a value and see how it feels. If
-        it doesn't feel aligned, generate another.
-      </div>
-      <div className="TextContent">
-        Once you have a value that feels good, play around with it. Stick with
-        it for the day or for the week, and see what comes up and what it feels
-        to live with that value in mind.
-      </div>
+      </div> */}
     </div>
   );
 }
