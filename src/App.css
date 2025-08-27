@@ -35,6 +35,13 @@
 }
 
 @font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf")
+    format("truetype");
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Freckle Face";
   src: url("fonts/FreckleFace-Regular.ttf") format("truetype");
   font-weight: normal;

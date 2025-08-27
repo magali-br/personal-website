@@ -39,16 +39,16 @@ function About() {
           <Link className="VisibleLink" to="/coaching">
             {"  "}coach
           </Link>
-          ? Do you want to{" "}
+          ?{" "}
           <a
             className="VisibleLink Link"
             href="https://tidycal.com/offbeatcoaching"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {"  "}book an introduction call
+            {"  "}Book an introduction call
           </a>
-          ?
+          !
         </p>
         <p>
           Is there is a{" "}

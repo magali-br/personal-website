@@ -8,9 +8,9 @@
 }
 
 .Title {
-  /* font-family: "Freckle Face"; */
+  font-family: "Freckle Face";
   /* font-family: "Amsterdam One"; */
-  font-family: "Stars & Love";
+  /* font-family: "Stars & Love"; */
   font-size: 50px;
   color: var(--title);
   width: fit-content;
