@@ -26,12 +26,12 @@ function CoachingTools() {
 
       <div className="TextContent">
         <Link className="VisibleLink" to="/values">
-          {"  "}List of values (English)
+          {"  "}list of values (English)
         </Link>
       </div>
       <div className="TextContent">
         <Link className="VisibleLink" to="/valeurs">
-          {"  "}Liste de valeurs (français)
+          {"  "}liste de valeurs (français)
         </Link>
       </div>
       <h2 className="Subsubtitle">Values Generator</h2>
