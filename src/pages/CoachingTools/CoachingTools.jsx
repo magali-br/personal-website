@@ -1,6 +1,7 @@
 import "./CoachingTools.css";
 import React, { useState } from "react";
 import valuesFile from "../../values.json";
+import { Link } from "react-router-dom";
 
 function CoachingTools() {
   const getRandomObject = (array) => {
@@ -21,6 +22,17 @@ function CoachingTools() {
         Values are a great tool for living more purposefully. The first step is
         to figure out what values are important to you, then to try to align
         your life more with them.
+      </div>
+
+      <div className="TextContent">
+        <Link className="VisibleLink" to="/values">
+          {"  "}List of values (English)
+        </Link>
+      </div>
+      <div className="TextContent">
+        <Link className="VisibleLink" to="/valeurs">
+          {"  "}Liste de valeurs (français)
+        </Link>
       </div>
       <h2 className="Subsubtitle">Values Generator</h2>
       <div className="Interactive">
