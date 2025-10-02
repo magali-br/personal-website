@@ -30,11 +30,6 @@ function CoachingTools() {
         <div className="ValueName">{randomValue}</div>
       </div>
       <div className="TextContent">
-        Values are a great tool for living more purposefully. The first step is
-        to figure out what values are important to you, then to try to align
-        your life more with them.
-      </div>
-      <div className="TextContent">
         If life feels a bit aimless or overwhelming right now, or if you're just
         looking for some inspiration, generate a value and see how it feels. If
         it doesn't feel aligned, generate another.
