@@ -15,3 +15,7 @@
 .LanguageResourceLink {
   text-decoration: underline;
 }
+
+.LanguageResourceLink:hover {
+  color: var(--link_highlight);
+}

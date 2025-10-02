@@ -32,7 +32,7 @@
 - [x] Change favicon
 - [x] Change basic look
 - [x] Make more professional
-- [x] Experiment with colours
+- [x] Experiment with colours (https://colorkit.co/color/9ba2ff/ is great for this)
 - [x] Remove empty white space below the copyright
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
 

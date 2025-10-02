@@ -16,6 +16,12 @@ function CoachingTools() {
   return (
     <div className="CoachingTools Container">
       <h1 className="Subtitle">Coaching Tools</h1>
+      <h2 className="Subsubtitle">Lists of Values</h2>
+      <div className="TextContent">
+        Values are a great tool for living more purposefully. The first step is
+        to figure out what values are important to you, then to try to align
+        your life more with them.
+      </div>
       <h2 className="Subsubtitle">Values Generator</h2>
       <div className="Interactive">
         <button type="button" onClick={regenerateValue}>
