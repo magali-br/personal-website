@@ -1,13 +1,13 @@
 ---
-recipe-type: dessert
 title: Eggless Chocolate Mousse
-published-on: 2023-12-04
+category: dessert
+published: 2023-12-04
 ---
 
 ### Ingredients:
 
 - 500mL whipping cream
-- 250g dark chocolate (50-65% cocoa)
+- 250g dark chocolate (55-65% cocoa)
 - 1/4 tsp salt
 
 ### Steps:

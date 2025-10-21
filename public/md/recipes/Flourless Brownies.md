@@ -1,8 +1,8 @@
 ---
 title: Flourless Brownies
-recipe-type: dessert
+category: dessert
 image: Brownies.jpg
-published-on: 2025-05-31
+published: 2025-05-31
 ---
 
 ### Ingredients:

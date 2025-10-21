@@ -1,3 +1,9 @@
+---
+title: Deliciously Moist Carrot Cake
+category: dessert
+published: 2025-05-21
+---
+
 ### Ingredients:
 
 - 4 eggs

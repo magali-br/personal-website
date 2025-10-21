@@ -61,4 +61,5 @@
 ## Coaching
 
 - [x] Create values generator for weekly inspiration
-- [] Define what coaching is, explain why it's important to me and my journey
+- [x] Make lists of values available in French and English
+- [x] Define what coaching is, explain why it's important to me and my journey

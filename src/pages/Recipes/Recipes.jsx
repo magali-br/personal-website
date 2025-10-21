@@ -4,10 +4,20 @@ import metadataParser from "markdown-yaml-metadata-parser";
 import recipeFiles from "../../recipesFiles.json";
 
 const Recipes = () => {
-  const [recipes, setRecipes] = useState([]);
+  const [recipesByCategory, setRecipesByCategory] = useState({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    function groupRecipesByCategory(recipes) {
+      return recipes.reduce((acc, recipe) => {
+        const category =
+          recipe.metadata.category?.toLowerCase() || "uncategorized";
+        if (!acc[category]) acc[category] = [];
+        acc[category].push(recipe);
+        return acc;
+      }, {});
+    }
+
     const loadRecipeList = async () => {
       try {
         const recipePromises = recipeFiles.map(async (file) => {
@@ -18,7 +28,10 @@ const Recipes = () => {
           let slug = recipeFileName.replaceAll(" ", "-");
           return { recipeFileName, content, slug, metadata };
         });
-        setRecipes(await Promise.all(recipePromises));
+        const results = await Promise.all(recipePromises);
+        const grouped = groupRecipesByCategory(results);
+
+        setRecipesByCategory(grouped);
         setLoading(false);
       } catch (error) {
         console.error("Error loading recipes:", error.message);
@@ -36,8 +49,35 @@ const Recipes = () => {
         <p>Loading...</p>
       ) : (
         <div className="RecipeTitleList">
+          <div className="Subsubtitle">Mains</div>
           <ul>
-            {recipes.map((recipe, index) => (
+            {recipesByCategory["main"].map((recipe, index) => (
+              <li key={index} className="RecipeTitle Bold">
+                <Link to={`/recipes/${recipe.slug}`}>
+                  {recipe.metadata.title
+                    ? recipe.metadata.title
+                    : recipe.recipeFileName}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <div className="Subsubtitle">Sides</div>
+          <ul>
+            {recipesByCategory["side"].map((recipe, index) => (
+              <li key={index} className="RecipeTitle Bold">
+                <Link to={`/recipes/${recipe.slug}`}>
+                  {recipe.metadata.title
+                    ? recipe.metadata.title
+                    : recipe.recipeFileName}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <div className="Subsubtitle">Desserts</div>
+          <ul>
+            {recipesByCategory["dessert"].map((recipe, index) => (
               <li key={index} className="RecipeTitle Bold">
                 <Link to={`/recipes/${recipe.slug}`}>
                   {recipe.metadata.title
