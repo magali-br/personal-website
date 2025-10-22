@@ -20,6 +20,8 @@
 - [] Clean up CSS
 - [] Cleanup embedded Google Docs / iFrame errors
 - [] Fix Google Docs layout not working on phone
+- [] Move to TypeScript
+- [] Move to NextJS
 
 ## Misc
 
@@ -53,7 +55,8 @@
 ## Recipes & conversions
 
 - [x] Expand generate-blog-list to also work for Recipes
-- [] Separate recipes into desserts, mains, and sides - separate MD folders too
+- [x] Separate recipes into desserts, mains, and sides
+
 - [] Random recipe selector for every category (desserts, mains, sides)
 - [] Explore https://github.com/TandoorRecipes/recipes
 - [] Add a "conversions" section with textboxes for conversions: temperature, tsp, tbsp, flour, butter, (brown, icing) sugar, ...
