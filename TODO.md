@@ -11,15 +11,14 @@
 - [x] Fix refresh not working on subpages (sub-URLs not working)
 - [x] Fix recipe display not working (linked to sub-URLs not working?)
 - [x] Download fonts locally for GDPR
-
   - Google Fonts and GDPR: https://www.cookieyes.com/documentation/google-fonts-and-gdpr/
   - https://developers.google.com/fonts/faq/privacy
   - https://www.wpeka.com/google-fonts-gdpr.html
   - OMGF for local fonts with wordpress https://daan.dev/wordpress/omgf/
+- [x] Cleanup embedded Google Docs / iFrame errors
+- [x] Fix Google Docs layout not working on phone
 
 - [] Clean up CSS
-- [] Cleanup embedded Google Docs / iFrame errors
-- [] Fix Google Docs layout not working on phone
 - [] Move to TypeScript
 - [] Move to NextJS
 
@@ -37,6 +36,7 @@
 - [x] Experiment with colours (https://colorkit.co/color/9ba2ff/ is great for this)
 - [x] Remove empty white space below the copyright
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
+- [x] In phone mode, don't allow image on About page to shrink too small
 
 - [] In phone mode, make menu vertical
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
