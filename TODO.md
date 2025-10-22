@@ -38,7 +38,8 @@
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
 - [x] In phone mode, don't allow image on About page to shrink too small
 
-- [] In phone mode, make menu vertical
+- [] In phone mode, make navbar vertical
+- [] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
 
 ## Version control
