@@ -48,5 +48,3 @@ For serving:
 1. Finally, stir in the lemon juice and cilantro, and turn off the heat. If you want your lentils to be even creamier and more on the puréed side, use an immersion blender to lightly purée the curry.
 1. Serve the curry with rice and/or Indian flatbread and garnish with additional cilantro.
 1. Store leftovers in the fridge for 3-4 days.
-
-_last update 2025-06-05_

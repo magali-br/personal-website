@@ -28,5 +28,3 @@ published: 2024-06-04
 1. Add 500 mL of water with chicken stock powder or chicken stock, as well as coconut milk.
 1. When cooked, remove the lemongrass if desired. Add the tomatoes and the juice of one lime.
 1. Serve with rice. Season with coriander and more lime, to taste.
-
-_last update 2025-05-31_
