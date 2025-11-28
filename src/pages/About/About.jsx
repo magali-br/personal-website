@@ -42,7 +42,7 @@ function About() {
           ?{" "}
           <a
             className="VisibleLink Link"
-            href="https://tidycal.com/offbeatcoaching"
+            href="https://tidycal.com/magalibr"
             target="_blank"
             rel="noopener noreferrer"
           >

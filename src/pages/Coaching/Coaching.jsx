@@ -42,9 +42,9 @@ function Coaching() {
         </p>
       </div>
 
-      <h1 className="Subtitle">Offbeat Coaching</h1>
+      <h1 className="Subtitle">Magali Boizot Roche - Coaching</h1>
       <div className="TextContent">
-        I founded Offbeat Coaching with a big mission. I dream of a world in
+        I founded my coaching business with a big mission. I dream of a world in
         which empathy is the norm, and in which we recognize every one of our
         strengths and celebrate every difference.{" "}
         <p>
@@ -97,7 +97,7 @@ function Coaching() {
       </div>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe
-          src="https://tidycal.com/offbeatcoaching"
+          src="https://tidycal.com/magalibr"
           width="100%"
           height="800px"
           frameBorder="0"
