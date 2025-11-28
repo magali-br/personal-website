@@ -40,6 +40,11 @@ function Coaching() {
           or grounding dance and movement practices. But you get to decide every
           step of the way what feels good and what you need and want.
         </p>
+        <img
+          className="CoachingImageHorizontal"
+          src={"/img/walking_through_iceland_enhanced.jpg"}
+          alt={"A photo of Magali walking down a road towards the horizon."}
+        />
       </div>
 
       <h1 className="Subtitle">Magali Boizot Roche - Coaching</h1>
@@ -66,6 +71,13 @@ function Coaching() {
       </div>
 
       <h1 className="Subtitle">Magali the Coach</h1>
+      <img
+        className="CoachingImageVertical"
+        src={"/img/magali_dandelion.jpg"}
+        alt={
+          "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
+        }
+      />
       <div className="TextContent">
         Early in 2024, after ten years in tech, nine years working as a software
         engineer and tech lead at Google, and two long burnouts, I finally
