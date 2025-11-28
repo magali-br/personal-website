@@ -97,7 +97,7 @@ function Coaching() {
       </div>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe
-          src="https://tidycal.com/magalibr"
+          src="https://tidycal.com/magalibr/intro-call"
           width="100%"
           height="800px"
           frameBorder="0"
