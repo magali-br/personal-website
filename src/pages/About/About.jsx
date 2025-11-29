@@ -24,11 +24,11 @@ function About() {
       </div>
       <div className="AboutQuestion">
         <h1 className="Subtitle">How do you pronounce that?</h1>
-        <p>
-          My name is Magali, pronounced
+        My name is Magali, pronounced
+        <ul>
           <li>['mæ:gəli] i.e. MA-guh-lee in English,</li>
           <li>[maga'li:] i.e. ma-ga-LEE in French, Spanish, or German.</li>
-        </p>
+        </ul>
       </div>
       <div className="AboutQuestion">
         <h1 className="Subtitle">Something to say?</h1>

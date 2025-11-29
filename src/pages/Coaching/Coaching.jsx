@@ -55,10 +55,12 @@ function Coaching() {
         <p>
           <b>
             I want every person on this planet to:
-            <li>wholeheartedly embrace who they are</li>
-            <li>feel safe and deserving enough to share it with the world</li>
-            <li>create and step into their own unique path</li>
-            <li>pursue their passions and live with purpose</li>{" "}
+            <ul>
+              <li>wholeheartedly embrace who they are</li>
+              <li>feel safe and deserving enough to share it with the world</li>
+              <li>create and step into their own unique path</li>
+              <li>pursue their passions and live with purpose</li>{" "}
+            </ul>
           </b>
         </p>
         <p>
