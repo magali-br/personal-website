@@ -103,10 +103,6 @@ function Coaching() {
       </div>
 
       <h1 className="Subtitle">Book a coaching session</h1>
-      <div className="TextContent">
-        If you're intrigued, book an introductory session to experience what it
-        would feel like to work with me!
-      </div>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe
           src="https://tidycal.com/magalibr/intro-call"
