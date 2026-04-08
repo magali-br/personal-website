@@ -1,24 +1,24 @@
-.About {
+.Home {
   text-align: left;
 }
 
-.AboutQuestion {
+.HomeQuestion {
   margin-bottom: 35px;
 }
 
-.AboutQuestion p {
+.HomeQuestion p {
   margin: 0;
 }
 
-.About p {
+.Home p {
   padding-bottom: 10px;
 }
 
-.AboutImageVertical {
+.HomeImage {
   width: 40%;
   height: auto;
   min-width: 250px;
-  max-width: 600px;
+  max-width: 400px;
   border-radius: 8px;
   margin: 20px 0px;
 }

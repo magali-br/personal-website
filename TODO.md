@@ -20,7 +20,7 @@
 
 - [] Clean up CSS
 - [] Move to TypeScript
-- [] Move to NextJS
+- [] Move to NextJS?
 - [] Bug: from About page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
 
 ## Misc
@@ -42,6 +42,8 @@
 - [] In phone mode, make navbar vertical
 - [] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
+- [] Make style more modern
+- [] Add professional photos of me
 
 ## Version control
 

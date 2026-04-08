@@ -18,16 +18,16 @@ function Navbar() {
             <span className="MenuItem">coaching</span>
           </Link>
         </div>
-        <div className="MenuItemContainer">
+        {/* <div className="MenuItemContainer">
           <Link to="/coachingtools">
             <span className="MenuItem">coaching tools</span>
           </Link>
-        </div>
-        <div className="MenuItemContainer">
+        </div> */}
+        {/* <div className="MenuItemContainer">
           <Link to="/languages">
             <span className="MenuItem">languages</span>
           </Link>
-        </div>
+        </div> */}
         <div className="MenuItemContainer">
           <Link to="/books">
             <span className="MenuItem">books</span>

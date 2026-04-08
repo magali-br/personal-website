@@ -2,12 +2,17 @@ import "./Coaching.css";
 // import Calendar from "./Calendar";
 
 function Coaching() {
+  const fictionBooksSheetEmbedUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?embedded=true";
+  // "https://docs.google.com/spreadsheets/d/e/2PACX-1vSA4l-8bGV6y4HgU12-lJlF8-WN9_zPYzw4FfVk34zDvqzsAfaqthfIitOPbcs0soXC6EPaunaU88vx/pubhtml?widget=true&amp;headers=false";
+
   return (
     <div className="Coaching Container">
       <h1 className="Subtitle">What is coaching?</h1>
       <div className="TextContent">
         <b>
-          Coaching is a space for you to reflect, process, and express yourself.{" "}
+          Coaching is a space for you to reflect, process, and express
+          yourself.{" "}
         </b>
         It amplifies your voice and helps surface what is already inside of you.{" "}
         <b>
@@ -46,8 +51,7 @@ function Coaching() {
           alt={"A photo of Magali walking down a road towards the horizon."}
         />
       </div>
-
-      <h1 className="Subtitle">Magali Boizot Roche - Coaching</h1>
+      <h1 className="Subtitle">My vision</h1>
       <div className="TextContent">
         I founded my coaching business with a big mission. I dream of a world in
         which empathy is the norm, and in which we recognize every one of our
@@ -72,39 +76,51 @@ function Coaching() {
         </p>
       </div>
 
-      <h1 className="Subtitle">Magali the Coach</h1>
-      <img
-        className="CoachingImageVertical"
-        src={"/img/magali_dandelion.jpg"}
-        alt={
-          "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
-        }
-      />
+      <h1 className="Subtitle">Interested?</h1>
       <div className="TextContent">
-        Early in 2024, after ten years in tech, nine years working as a software
-        engineer and tech lead at Google, and two long burnouts, I finally
-        decided that I'd had enough. I'd been craving new adventures and a path
-        that felt more aligned for years, but I couldn't figure out in which
-        direction to go, and it was working with a coach that finally gave me
-        the courage to take the leap.
-        <p>
-          In June, I left my safe job. The space and time to myself finally gave
-          me the energy to make the changes in myself that I had been trying to
-          make for years. Six months later, I decided to honour an idea I'd had
-          for years and took the leap to becoming a coach.
-        </p>
-        <p>
-          I value deep empathy, honesty, authenticity, and vulnerability. I
-          celebrate every act of courage, especially when it comes to digging
-          deeper, understanding my triggers, and facing my fears. My favourite
-          emotions to experience are joy, awe, and wonder. I live my life in
-          pursuit of freedom - liberation from everything that isn't serving me,
-          whether expectations or fear, whether internally or externally
-          imposed.
-        </p>
+        If you'd like to try working with me as a coach, fill out the following
+        form (
+        <a
+          className="VisibleLink Link"
+          href="https://forms.gle/bjNuWgjmomywchnr9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          external link
+        </a>
+        ):
       </div>
-
-      <h1 className="Subtitle">Book a coaching session</h1>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?embedded=true"
+        width="100%"
+        height="800"
+        style={{ border: "none" }}
+      >
+        Loading…
+      </iframe>
+      <p></p>
+      <div className="TextContent">
+        You can also message me on{" "}
+        <a
+          className="VisibleLink Link"
+          href="https://www.linkedin.com/in/magali-br/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>{" "}
+        or{" "}
+        <a
+          className="VisibleLink Link"
+          href="https://www.instagram.com/offbeatcoaching/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        .
+      </div>
+      {/* <h1 className="Subtitle">Interested?</h1>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe
           src="https://tidycal.com/magalibr/intro-call"
@@ -124,8 +140,7 @@ function Coaching() {
           Instagram
         </a>
         .
-      </div>
-
+      </div> */}
       {/* <h2 className="Subsubtitle">Coaching is... witnessing.</h2>
       <div className="TextContent">
         I spent so long repressing so many parts of me that in order to heal, I
