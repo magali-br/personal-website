@@ -82,7 +82,7 @@ function Coaching() {
         form (
         <a
           className="VisibleLink Link"
-          href="https://forms.gle/bjNuWgjmomywchnr9"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header"
           target="_blank"
           rel="noopener noreferrer"
         >
