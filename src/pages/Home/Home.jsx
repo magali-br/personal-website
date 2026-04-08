@@ -12,7 +12,9 @@ function Home() {
         <img
           className="HomeImage"
           src={"/img/magali_dandelion.jpg"}
-          alt={"A photo of Magali as an explorer, peering out of a jungle"}
+          alt={
+            "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
+          }
         />
         <p>
           I'm a coach, linguist, writer, dancer, and software engineer,

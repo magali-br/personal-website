@@ -10,6 +10,11 @@ function Coaching() {
   return (
     <div className="Coaching Container">
       <h1 className="Subtitle">What is coaching?</h1>
+      <img
+        className="CoachingImageHorizontal"
+        src={"/img/walking_through_iceland_enhanced.jpg"}
+        alt={"A photo of Magali walking down a road towards the horizon."}
+      />
       <div className="TextContent">
         <b>
           Coaching is a space for you to reflect, process, and express
@@ -48,17 +53,15 @@ function Coaching() {
         </p>
       </div>
       <h1 className="Subtitle">My vision</h1>
+      <img
+        className="CoachingImageVertical"
+        src={"/img/explorer_in_jungle_square.jpg"}
+        alt={"A photo of Magali as an explorer, peering out of a jungle"}
+      />
       <div className="TextContent">
-        <img
-          className="CoachingImageHorizontal"
-          src={"/img/walking_through_iceland_enhanced.jpg"}
-          alt={"A photo of Magali walking down a road towards the horizon."}
-        />
-        <p>
-          I founded my coaching business with a big mission. I dream of a world
-          in which empathy is the norm, and in which we recognize every one of
-          our strengths and celebrate every difference.{" "}
-        </p>
+        I founded my coaching business with a big mission. I dream of a world in
+        which empathy is the norm, and in which we recognize every one of our
+        strengths and celebrate every difference.{" "}
         <p>
           <b>
             I want every person on this planet to:
