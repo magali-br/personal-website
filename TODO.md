@@ -21,11 +21,13 @@
 - [] Clean up CSS
 - [] Move to TypeScript
 - [] Move to NextJS?
-- [] Bug: from About page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
+- [] Bug: from Home page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
 
-## Misc
+## Contact
 
-- [] Add link to Instagram page: either handle @offbeatcoaching or Instagram logo
+- [] Add Contact link to Footer + Contact page so can always be found
+- [] Add Instagram logo + link
+- [] Add handle @offbeatcoaching?
 - [] Add FB logo + link
 
 ## Style
@@ -38,12 +40,12 @@
 - [x] Remove empty white space below the copyright
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
 - [x] In phone mode, don't allow image on About page to shrink too small
+- [x] Add professional photos of me
 
 - [] In phone mode, make navbar vertical
 - [] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
 - [] Make style more modern
-- [] Add professional photos of me
 
 ## Version control
 
@@ -55,6 +57,7 @@
 - [] Structure Language Resources: add dropdown on Navbar and list going to separate page for each language
 - [] Add language resources for Arabic
 - [] Add language resources for Spanish
+- [] Fill out language resources for German
 
 ## Recipes & conversions
 
@@ -70,3 +73,5 @@
 - [x] Create values generator for weekly inspiration
 - [x] Make lists of values available in French and English
 - [x] Define what coaching is, explain why it's important to me and my journey
+
+## Misc
