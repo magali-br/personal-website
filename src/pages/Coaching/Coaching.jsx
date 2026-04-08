@@ -45,17 +45,19 @@ function Coaching() {
           or grounding dance and movement practices. But you get to decide every
           step of the way what feels good and what you need and want.
         </p>
+      </div>
+      <h1 className="Subtitle">My vision</h1>
+      <div className="TextContent">
         <img
           className="CoachingImageHorizontal"
           src={"/img/walking_through_iceland_enhanced.jpg"}
           alt={"A photo of Magali walking down a road towards the horizon."}
         />
-      </div>
-      <h1 className="Subtitle">My vision</h1>
-      <div className="TextContent">
-        I founded my coaching business with a big mission. I dream of a world in
-        which empathy is the norm, and in which we recognize every one of our
-        strengths and celebrate every difference.{" "}
+        <p>
+          I founded my coaching business with a big mission. I dream of a world
+          in which empathy is the norm, and in which we recognize every one of
+          our strengths and celebrate every difference.{" "}
+        </p>
         <p>
           <b>
             I want every person on this planet to:
