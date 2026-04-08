@@ -2,6 +2,9 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 function Home() {
+  const coachingInterestFormExternalUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
+
   return (
     <div className="Home Container">
       <div className="HomeQuestion">
@@ -32,7 +35,7 @@ function Home() {
           ? Don't hesitate to fill out my{" "}
           <a
             className="VisibleLink Link"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header"
+            href={coachingInterestFormExternalUrl}
             target="_blank"
             rel="noopener noreferrer"
           >

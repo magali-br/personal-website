@@ -64,6 +64,7 @@
 - [x] Expand generate-blog-list to also work for Recipes
 - [x] Separate recipes into desserts, mains, and sides
 
+- [] Add blurb about why I leave this on a coaching website: I love coaches who are humans....
 - [] Random recipe selector for every category (desserts, mains, sides)
 - [] Explore https://github.com/TandoorRecipes/recipes
 - [] Add a "conversions" section with textboxes for conversions: temperature, tsp, tbsp, flour, butter, (brown, icing) sugar, ...
@@ -73,5 +74,9 @@
 - [x] Create values generator for weekly inspiration
 - [x] Make lists of values available in French and English
 - [x] Define what coaching is, explain why it's important to me and my journey
+
+## Books
+
+- [] Add blurb about why I leave this on a coaching website: I love seeing different facets of a person...
 
 ## Misc

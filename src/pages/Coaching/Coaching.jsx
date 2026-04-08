@@ -2,9 +2,10 @@ import "./Coaching.css";
 // import Calendar from "./Calendar";
 
 function Coaching() {
-  const fictionBooksSheetEmbedUrl =
+  const coachingInterestFormEmbedUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?embedded=true";
-  // "https://docs.google.com/spreadsheets/d/e/2PACX-1vSA4l-8bGV6y4HgU12-lJlF8-WN9_zPYzw4FfVk34zDvqzsAfaqthfIitOPbcs0soXC6EPaunaU88vx/pubhtml?widget=true&amp;headers=false";
+  const coachingInterestFormExternalUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
 
   return (
     <div className="Coaching Container">
@@ -84,7 +85,7 @@ function Coaching() {
         form (
         <a
           className="VisibleLink Link"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header"
+          href={coachingInterestFormExternalUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -93,7 +94,7 @@ function Coaching() {
         ):
       </div>
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?embedded=true"
+        src={coachingInterestFormEmbedUrl}
         width="100%"
         height="800"
         style={{ border: "none" }}
