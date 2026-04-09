@@ -13,12 +13,3 @@
 .Home p {
   padding-bottom: 10px;
 }
-
-.HomeImage {
-  width: 20%;
-  height: auto;
-  min-width: 250px;
-  max-width: 400px;
-  border-radius: 8px;
-  margin: 20px 0px;
-}

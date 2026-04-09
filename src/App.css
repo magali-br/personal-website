@@ -114,6 +114,24 @@ button {
   font-style: italic;
 }
 
+.SmallImageHorizontal {
+  width: 40%;
+  height: auto;
+  min-width: 250px;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 20px 0px;
+}
+
+.SmallImageVertical {
+  width: 20%;
+  height: auto;
+  min-width: 250px;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 20px 0px;
+}
+
 .Subtitle {
   width: fit-content;
   margin-bottom: 20px;

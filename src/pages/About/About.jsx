@@ -6,6 +6,26 @@ function About() {
     <div className="About Container">
       <div className="AboutQuestion">
         <h1 className="Subtitle">Who I am</h1>
+        <p>
+          I'm a coach, writer, dancer, linguist, and software engineer,
+          passionate about experiencing wonder and making the world a better
+          place.
+        </p>
+        <p>
+          As a generalist who never gets tired of jumping into new projects, I
+          love to explore, discover, and connect ideas. I am a shapeshifter,
+          travelling between worlds and jumping in and out as I please.
+        </p>
+        <img
+          className="SmallImageVertical"
+          src={"/img/magali_montpellier_cropped.jpg"}
+          alt={
+            "A photo of Magali with her hand outstretched towards a vine growing on the facade of a white house."
+          }
+        />
+      </div>
+      <div className="AboutQuestion">
+        <h1 className="Subtitle">My story</h1>
         <div className="TextContent">
           Early in 2024, after ten years in tech, nine years working as a
           software engineer and tech lead at Google, and two long burnouts, I
@@ -20,13 +40,6 @@ function About() {
           make for years. Six months later, I decided to honour an idea I'd had
           for years and took the leap to becoming a coach.
         </div>
-        <img
-          className="CoachingImageVertical"
-          src={"/img/magali_montpellier_cropped.jpg"}
-          alt={
-            "A photo of Magali with her hand outstretched towards a vine growing on the facade of a white house."
-          }
-        />
         <div className="TextContent">
           I value deep empathy, honesty, authenticity, and vulnerability. I
           celebrate every act of courage, especially when it comes to digging

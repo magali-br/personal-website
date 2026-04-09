@@ -10,7 +10,7 @@ function Coaching() {
     <div className="Coaching Container">
       <h1 className="Subtitle">What is coaching?</h1>
       <img
-        className="CoachingImageHorizontal"
+        className="SmallImageHorizontal"
         src={"/img/walking_through_iceland_enhanced.jpg"}
         alt={"A photo of Magali walking down a road towards the horizon."}
       />
@@ -53,7 +53,7 @@ function Coaching() {
       </div>
       <h1 className="Subtitle">My vision</h1>
       <img
-        className="CoachingImageVertical"
+        className="SmallImageVertical"
         src={"/img/explorer_in_jungle_square.jpg"}
         alt={"A photo of Magali as an explorer, peering out of a jungle"}
       />

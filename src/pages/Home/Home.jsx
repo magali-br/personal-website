@@ -8,27 +8,14 @@ function Home() {
   return (
     <div className="Home Container">
       <div className="HomeQuestion">
-        <h1 className="Subtitle">Hi, I'm Magali. Welcome to my many worlds.</h1>
+        <h1 className="Subtitle">Hi, I'm Magali. Welcome.</h1>
         <img
-          className="HomeImage"
+          className="SmallImageVertical"
           src={"/img/magali_dandelion.jpg"}
           alt={
             "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
           }
         />
-        <p>
-          I'm a coach, linguist, writer, dancer, and software engineer,
-          passionate about experiencing wonder and making the world a better
-          place.
-        </p>
-        <p>
-          As a generalist who never gets tired of jumping into new projects, I
-          love to explore, discover, and connect ideas. I am a shapeshifter,
-          travelling between worlds and jumping in and out as I please.
-        </p>
-      </div>
-      <div className="HomeQuestion">
-        <h1 className="Subtitle">Contact</h1>
         <p>
           Curious about working with me as a{" "}
           <Link className="VisibleLink" to="/coaching">
