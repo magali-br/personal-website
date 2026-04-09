@@ -30,17 +30,17 @@ function Coaching() {
           it must come from within.
         </p>
         <p>
-          <b>Coaching is not mentoring</b>: as a coach, I never assume that the
+          <b>Coaching is not mentoring</b>: As a coach, I never assume that the
           solutions that worked for me are going to work with you. However, I
           may sometimes ask for permission to put on my mentor hat if I feel
           that sharing my past experience could be useful to you.
         </p>
         <p>
-          <b>Coaching is not therapy</b>: I am not a licensed therapist, and I
-          cannot take on that responsibility. However, coaching can be a great
-          companion to therapy because it empowers us and gives us agency over
-          our life. I have experienced a lot of mental health setbacks in my
-          life, and coaching is what gave me the tools to finally pull myself
+          <b>Coaching is not therapy</b>: I am not (yet) a licensed therapist,
+          and I cannot take on that responsibility. However, coaching can be a
+          great companion to therapy because it empowers us and gives us agency
+          over our life. I have experienced a lot of mental health setbacks in
+          my life, and coaching is what gave me the tools to finally pull myself
           forwards.
         </p>
         <p>
