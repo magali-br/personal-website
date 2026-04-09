@@ -96,7 +96,7 @@ button {
 .Container {
   padding: 0 80px;
   font-size: 20px;
-  min-height: calc(100vh - 180px);
+  min-height: calc(100vh - 200px);
   display: flex;
   flex-direction: column;
   max-width: 1300px;

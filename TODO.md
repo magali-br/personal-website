@@ -17,6 +17,7 @@
   - OMGF for local fonts with wordpress https://daan.dev/wordpress/omgf/
 - [x] Cleanup embedded Google Docs / iFrame errors
 - [x] Fix Google Docs layout not working on phone
+- [x] Footer goes below view screen -> Fixed in App.css > Container > minheight (increased what's substracted)
 
 - [] Clean up CSS
 - [] Move to TypeScript
@@ -25,10 +26,11 @@
 
 ## Contact
 
+- [x] Add Instagram logo + link to Footer
+- [x] Add FB logo + link to Footer
+- [x] Add LinkedIn logo + link to Footer
+
 - [] Add Contact link to Footer + Contact page so can always be found
-- [] Add Instagram logo + link
-- [] Add handle @offbeatcoaching?
-- [] Add FB logo + link
 
 ## Style
 
@@ -41,9 +43,10 @@
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
 - [x] In phone mode, don't allow image on About page to shrink too small
 - [x] Add professional photos of me
+- [n/a] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
 
 - [] In phone mode, make navbar vertical
-- [] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
+- [] In phone mode, improve Footer
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
 - [] Make style more modern
 
@@ -51,13 +54,6 @@
 
 - [x] Upload to Github repo
 - [x] Set up on Github Pages repo
-
-## Language resources
-
-- [] Structure Language Resources: add dropdown on Navbar and list going to separate page for each language
-- [] Add language resources for Arabic
-- [] Add language resources for Spanish
-- [] Fill out language resources for German
 
 ## Recipes & conversions
 
@@ -78,5 +74,12 @@
 ## Books
 
 - [] Add blurb about why I leave this on a coaching website: I love seeing different facets of a person...
+
+## Language resources
+
+- [] Structure Language Resources: add dropdown on Navbar and list going to separate page for each language
+- [] Add language resources for Arabic
+- [] Add language resources for Spanish
+- [] Fill out language resources for German
 
 ## Misc

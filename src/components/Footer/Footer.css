@@ -1,9 +1,9 @@
 .FooterBackground {
   background-color: var(--header);
+  padding: 20px;
 }
 
 .Footer {
-  padding: 20px;
   font-size: 14px;
   color: white;
   display: flex;
