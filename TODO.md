@@ -19,8 +19,7 @@
 - [x] Fix Google Docs layout not working on phone
 - [x] Footer goes below view screen -> Fixed in App.css > Container > minheight (increased what's substracted)
 
-- [] Clean up CSS
-- [] CSS fix padding issues everywhere, make standard
+- [] Clean up CSS & make padding standard everywhere
 - [] Move to TypeScript
 - [] Move to NextJS?
 - [] Bug: from Home page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
@@ -71,6 +70,8 @@
 - [x] Create values generator for weekly inspiration
 - [x] Make lists of values available in French and English
 - [x] Define what coaching is, explain why it's important to me and my journey
+
+- [] Add something about coaching to the home page.
 
 ## Books
 
