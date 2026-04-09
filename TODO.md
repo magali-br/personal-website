@@ -23,6 +23,7 @@
 - [] Move to TypeScript
 - [] Move to NextJS?
 - [] Bug: from Home page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
+- [] Bug: Loading Google form on Coaching page generates "Failed to load resource: net::ERR_FILE_NOT_FOUND"
 
 ## Contact
 

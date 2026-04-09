@@ -9,11 +9,6 @@ function Navbar() {
       </Link>
       <div className="MenuItems">
         <div className="MenuItemContainer">
-          <Link to="/about">
-            <span className="MenuItem">about</span>
-          </Link>
-        </div>
-        <div className="MenuItemContainer">
           <Link to="/coaching">
             <span className="MenuItem">coaching</span>
           </Link>
@@ -36,6 +31,11 @@ function Navbar() {
         <div className="MenuItemContainer">
           <Link to="/recipes">
             <span className="MenuItem">recipes</span>
+          </Link>
+        </div>
+        <div className="MenuItemContainer">
+          <Link to="/about">
+            <span className="MenuItem">about</span>
           </Link>
         </div>
         {/* <div className="MenuItemContainer">
