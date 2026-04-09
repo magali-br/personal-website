@@ -1,5 +1,4 @@
 import "./Coaching.css";
-// import Calendar from "./Calendar";
 
 function Coaching() {
   const coachingInterestFormEmbedUrl =
@@ -62,7 +61,7 @@ function Coaching() {
         I founded my coaching business with a big mission. I dream of a world in
         which empathy is the norm, and in which we recognize every one of our
         strengths and celebrate every difference.{" "}
-        <p>
+        <span>
           <b>
             I want every person on this planet to:
             <ul>
@@ -72,7 +71,7 @@ function Coaching() {
               <li>pursue their passions and live with purpose</li>{" "}
             </ul>
           </b>
-        </p>
+        </span>
         <p>
           For some people this comes easy; for many others, it doesn't. I think
           of those of us who are highly sensitive or neurodivergent and were
