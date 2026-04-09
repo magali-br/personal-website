@@ -34,7 +34,7 @@ function Home() {
           <Link className="VisibleLink" to="/coaching">
             {"  "}coach
           </Link>
-          ? Don't hesitate to fill out my{" "}
+          ? Fill out my{" "}
           <a
             className="VisibleLink Link"
             href={coachingInterestFormExternalUrl}
@@ -51,7 +51,7 @@ function Home() {
             {" "}
             language resources
           </Link>{" "}
-          you'd like to contribute or see here? Do you have a question Home a{" "}
+          you'd like to contribute or see here? Do you have a question about a{" "}
           <Link className="VisibleLink" to="/recipes">
             {" "}
             recipe
