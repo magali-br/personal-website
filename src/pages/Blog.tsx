@@ -1,20 +1,28 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import blogFiles from "../../blogFiles.json";
+import blogFiles from "../blogFiles.json";
+
+interface BlogEntry {
+  filename: string;
+  slug: string;
+}
 
 export const Blog = () => {
-  const [blogs, setBlogs] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // 2. Explicitly type the state
+  const [blogs, setBlogs] = useState<BlogEntry[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    const loadBlogList = async () => {
-      const blogs = blogFiles.map(async (file) => {
-        let filename = file.replaceAll(".md", "");
-        let slug = filename.replaceAll(" ", "-");
-        setLoading(false);
+    const loadBlogList = async (): Promise<void> => {
+      const blogPromises = (blogFiles as string[]).map(async (file) => {
+        const filename = file.replace(".md", "");
+        const slug = filename.replaceAll(" ", "-");
         return { filename, slug };
       });
-      setBlogs(await Promise.all(blogs));
+
+      const resolvedBlogs = await Promise.all(blogPromises);
+      setBlogs(resolvedBlogs);
+      setLoading(false);
     };
 
     loadBlogList();

@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import metadataParser from "markdown-yaml-metadata-parser";
 import recipeFiles from "../recipesFiles.json";
 
-// 1. Define what a Recipe looks like
 interface RecipeMetadata {
   title?: string;
   category?: string;
@@ -27,7 +26,6 @@ export const Recipes = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    // Helper function with types
     const groupRecipesByCategory = (recipes: Recipe[]): GroupedRecipes => {
       return recipes.reduce((acc: GroupedRecipes, recipe: Recipe) => {
         const category =
