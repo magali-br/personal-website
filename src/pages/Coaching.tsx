@@ -1,6 +1,6 @@
 import "./Coaching.css";
 
-function Coaching() {
+export const Coaching = () => {
   const coachingInterestFormEmbedUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?embedded=true";
   const coachingInterestFormExternalUrl =
@@ -192,6 +192,4 @@ function Coaching() {
       </div> */}
     </div>
   );
-}
-
-export default Coaching;
+};

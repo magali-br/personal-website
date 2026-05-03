@@ -1,7 +1,6 @@
 import "./About.css";
-import { Link } from "react-router-dom";
 
-function About() {
+export const About = () => {
   return (
     <div className="About Container">
       <div className="AboutQuestion">
@@ -60,6 +59,4 @@ function About() {
       </div>
     </div>
   );
-}
-
-export default About;
+};

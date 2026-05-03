@@ -1,6 +1,6 @@
 import "./Languages.css";
 
-function Languages() {
+export const Languages = () => {
   return (
     <div className="Languages Container">
       <h1 className="Subtitle">
@@ -90,6 +90,4 @@ function Languages() {
       <p></p>
     </div>
   );
-}
-
-export default Languages;
+};

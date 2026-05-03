@@ -1,7 +1,7 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
 
-function Home() {
+export const Home = () => {
   const coachingInterestFormExternalUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
 
@@ -72,6 +72,4 @@ function Home() {
       </div>
     </div>
   );
-}
-
-export default Home;
+};

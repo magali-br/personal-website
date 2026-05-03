@@ -1,17 +1,18 @@
 import "./CoachingTools.css";
-import React, { useState } from "react";
-import valuesFile from "../../values.json";
+import { useState } from "react";
+import valuesFile from "../values.json";
 import { Link } from "react-router-dom";
 
-function CoachingTools() {
-  const getRandomObject = (array) => {
+export const CoachingTools = () => {
+  const getRandomString = (array: string[]): string => {
+    if (array.length === 0) return "";
     const randomObject = array[Math.floor(Math.random() * array.length)];
     return randomObject.toLowerCase();
   };
+  const [randomValue, setRandomValue] = useState<string | null>(null);
 
-  const [randomValue, setRandomValue] = useState(null);
   const regenerateValue = () => {
-    setRandomValue(getRandomObject(valuesFile));
+    setRandomValue(getRandomString(valuesFile));
   };
 
   return (
@@ -53,6 +54,4 @@ function CoachingTools() {
       </div>
     </div>
   );
-}
-
-export default CoachingTools;
+};

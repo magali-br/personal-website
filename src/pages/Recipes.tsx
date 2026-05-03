@@ -1,40 +1,68 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import metadataParser from "markdown-yaml-metadata-parser";
-import recipeFiles from "../../recipesFiles.json";
+import recipeFiles from "../recipesFiles.json";
 
-const Recipes = () => {
-  const [recipesByCategory, setRecipesByCategory] = useState({});
-  const [loading, setLoading] = useState(true);
+// 1. Define what a Recipe looks like
+interface RecipeMetadata {
+  title?: string;
+  category?: string;
+}
+
+interface Recipe {
+  recipeFileName: string;
+  content: string;
+  slug: string;
+  metadata: RecipeMetadata;
+}
+
+interface GroupedRecipes {
+  [category: string]: Recipe[];
+}
+
+export const Recipes = () => {
+  const [recipesByCategory, setRecipesByCategory] = useState<GroupedRecipes>(
+    {},
+  );
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    function groupRecipesByCategory(recipes) {
-      return recipes.reduce((acc, recipe) => {
+    // Helper function with types
+    const groupRecipesByCategory = (recipes: Recipe[]): GroupedRecipes => {
+      return recipes.reduce((acc: GroupedRecipes, recipe: Recipe) => {
         const category =
           recipe.metadata.category?.toLowerCase() || "uncategorized";
         if (!acc[category]) acc[category] = [];
         acc[category].push(recipe);
         return acc;
       }, {});
-    }
+    };
 
     const loadRecipeList = async () => {
       try {
-        const recipePromises = recipeFiles.map(async (file) => {
+        const recipePromises = recipeFiles.map(async (file: string) => {
           const contentResponse = await fetch(`/md/recipes/${file}`);
           const content = await contentResponse.text();
-          const metadata = metadataParser(content).metadata;
-          let recipeFileName = file.replace(".md", "");
-          let slug = recipeFileName.replaceAll(" ", "-");
+
+          // Using the parser
+          const parsed = metadataParser(content);
+          const metadata = parsed.metadata as RecipeMetadata;
+
+          const recipeFileName = file.replace(".md", "");
+          const slug = recipeFileName.replaceAll(" ", "-");
+
           return { recipeFileName, content, slug, metadata };
         });
+
         const results = await Promise.all(recipePromises);
         const grouped = groupRecipesByCategory(results);
 
         setRecipesByCategory(grouped);
         setLoading(false);
       } catch (error) {
-        console.error("Error loading recipes:", error.message);
+        if (error instanceof Error) {
+          console.error("Error loading recipes:", error.message);
+        }
         setLoading(false);
       }
     };
@@ -96,5 +124,3 @@ const Recipes = () => {
     </div>
   );
 };
-
-export default Recipes;

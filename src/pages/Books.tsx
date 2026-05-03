@@ -1,6 +1,6 @@
 import "./Books.css";
 
-function Books() {
+export const Books = () => {
   const nonFictionBooksSheetShareUrl =
     "https://docs.google.com/spreadsheets/d/11qa-sXCDfMki8rj4OEC3aWGPZcHtS7Ka9keVDM9krj0/view";
   const nonFictionBooksSheetEmbedUrl =
@@ -68,6 +68,4 @@ function Books() {
       </div>
     </div>
   );
-}
-
-export default Books;
+};

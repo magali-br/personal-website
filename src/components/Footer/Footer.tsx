@@ -1,7 +1,7 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
-function Footer() {
+export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   /* With Vista Blue & White branding */
@@ -63,6 +63,4 @@ function Footer() {
       </span>
     </div>
   );
-}
-
-export default Footer;
+};

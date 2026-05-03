@@ -1,10 +1,10 @@
 import "./RecipeDetail.css";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import MarkdownRenderer from "../../MarkdownRenderer";
+import MarkdownRenderer from "../MarkdownRenderer";
 import metadataParser from "markdown-yaml-metadata-parser";
-import recipeFiles from "../../recipesFiles.json";
+import recipeFiles from "../recipesFiles.json";
 
 const RecipeTitle = (recipe) => {
   if (recipe.metadata && recipe.metadata.title) {
@@ -26,7 +26,7 @@ const RecipePhoto = (recipe) => {
   return <div />;
 };
 
-const RecipeDetail = () => {
+export const RecipeDetail = () => {
   const { id } = useParams();
   const [recipe, setRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -45,7 +45,7 @@ const RecipeDetail = () => {
 
       try {
         const content = await fetch(`/md/recipes/${filename}`).then(
-          (response) => response.text()
+          (response) => response.text(),
         );
         const metadataParserResult = metadataParser(content);
 
@@ -81,5 +81,3 @@ const RecipeDetail = () => {
     </div>
   );
 };
-
-export default RecipeDetail;

@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import MarkdownRenderer from "../../MarkdownRenderer";
-import blogFiles from "../../blogFiles.json";
+import MarkdownRenderer from "../MarkdownRenderer";
+import blogFiles from "../blogFiles.json";
 
 const BlogDetail = () => {
   const { id } = useParams();
