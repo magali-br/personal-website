@@ -3,11 +3,24 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
+
+  /* With Vista Blue & White branding */
+  const ig_logo = "/img/instagram-logo-white.png";
+  const fb_logo = "/img/facebook-4-512-white.png";
+  const li_logo = "/img/linkedin-3-512-white.png";
+
+  /* With Provence Blue & Yellow branding */
+  // const ig_logo = "/img/instagram-logo-blueprovence.png";
+  // const fb_logo = "/img/facebook-4-512-blueprovence.png";
+  // const li_logo = "/img/linkedin-3-512-blueprovence.png";
+
   return (
     <div className="FooterBackground">
-      <span className="Footer">
-        <span className="FooterTextLink">
-          <Link to="/">{"Home"}</Link>
+      <span className="FooterInnerBar">
+        <span className="FooterLeftBar">
+          <Link className="FooterText" to="/">
+            {"Home"}
+          </Link>
           <a
             className="Link"
             href="https://www.instagram.com/offbeatcoaching/"
@@ -16,7 +29,7 @@ function Footer() {
           >
             <img
               className="FooterIcon"
-              src={"/img/instagram_logo_white.png"}
+              src={ig_logo}
               alt={"Instagram account"}
             />
           </a>
@@ -28,7 +41,7 @@ function Footer() {
           >
             <img
               className="FooterIcon"
-              src={"/img/facebook-24x24.png"}
+              src={fb_logo}
               alt={"Facebook account"}
             />
           </a>
@@ -40,7 +53,7 @@ function Footer() {
           >
             <img
               className="FooterIcon"
-              src={"/img/linkedin-24x24.png"}
+              src={li_logo}
               alt={"Instagram account"}
             />
           </a>

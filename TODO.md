@@ -27,29 +27,34 @@
 
 ## Contact
 
-- [x] Add Instagram logo + link to Footer
-- [x] Add FB logo + link to Footer
-- [x] Add LinkedIn logo + link to Footer
+- [x] Add Instagram logo + link to Footer -> Found icon at https://freepnglogo.com/logos/instagram & changed colour of white icon via https://onlinepngtools.com/change-png-color
+- [x] Add FB logo + link to Footer -> Found icon at https://www.iconsdb.com/white-icons/
+- [x] Add LinkedIn logo + link to Footer -> Found icon at https://www.iconsdb.com/white-icons/
 
 - [] Add Contact link to Footer + Contact page so can always be found
 
-## Style
+## Branding
 
 - [x] Change fonts
 - [x] Change favicon
 - [x] Change basic look
 - [x] Make more professional
 - [x] Experiment with colours (https://colorkit.co/color/9ba2ff/ is great for this)
+- [x] Add professional photos of me
+- [] Created basic Provence Blue & Yellow brand. To switch, modify src/App.css & src/components/Footer/Footer.jsx
+
+- [] Make style more modern
+
+## Style
+
 - [x] Remove empty white space below the copyright
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
 - [x] In phone mode, don't allow image on About page to shrink too small
-- [x] Add professional photos of me
 - [n/a] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
 
 - [] In phone mode, make navbar vertical
 - [] In phone mode, improve Footer
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
-- [] Make style more modern
 
 ## Version control
 

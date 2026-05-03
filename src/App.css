@@ -1,10 +1,4 @@
 :root {
-  --background: #fff;
-  --title: #000;
-  --header: #9ba2ff;
-  --header_highlight: #707bf9;
-  --link_highlight: #4b4f80;
-
   --alt_title_black: #000;
   --alt_title_white: #fff;
   --alt_title_brown: #352800;
@@ -26,6 +20,35 @@
   --alt_colour_dark_turquoise: #008b8b;
   --darker_text: #0f2f44;
   --dark_text: #0f2f44;
+
+  --provence_background: #fcf7e0;
+  --provence_blue: #1052bc;
+  --provence_yellow: #ffcc16;
+  --provence_yellow_highlight: #d6a811;
+
+  /* ----- BRANDING ----- */
+
+  --branding_vista_blue: true;
+
+  /* Vista Blue & White */
+  --background: #fff;
+  --title: #000;
+  --header: #9ba2ff;
+  --header_highlight: #707bf9;
+  --footer: #9ba2ff;
+  --footer_highlight: #707bf9;
+  --footer_text: #fff;
+  --link_highlight: #4b4f80;
+
+  /* Provence Blue & Yellow */
+  /* --background: var(--provence_background);
+  --title: var(--provence_blue);
+  --header: var(--provence_yellow);
+  --header_highlight: var(--provence_yellow_highlight);
+  --footer: var(--provence_background);
+  --footer_highlight: var(--provence_yellow);
+  --footer_text: var(--provence_blue);
+  --link_highlight: var(--provence_blue); */
 }
 
 @font-face {

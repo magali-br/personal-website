@@ -1,24 +1,34 @@
 .FooterBackground {
-  background-color: var(--header);
-  padding: 20px;
+  background-color: var(--footer);
+  padding: 20px 35px;
 }
 
-.Footer {
+.FooterInnerBar {
   font-size: 14px;
-  color: white;
+  color: var(--footer_text);
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: right;
 }
 
+.FooterLeftBar {
+  display: flex;
+  align-items: center;
+}
+
 .FooterIcon {
   width: 24px;
   height: 24px;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 20px 0px 0px;
 }
 
-.FooterTextLink {
-  display: flex;
-  align-items: center;
+.FooterText {
+  padding: 3px;
+  margin: 0px 17px 0px 0px;
+}
+
+.FooterText:hover {
+  background-color: var(--footer_highlight);
+  cursor: pointer;
 }
