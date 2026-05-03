@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "prebuild": "tsx ./scripts/generate-files.ts",
+    "build": "tsc && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "generate-file-lists": "node --loader ts-node/esm generateFileLists.js",
     "predeploy": "npm run build",
     "deploy": "cd dist && cp index.html 404.html && cd .. && gh-pages -d dist"
   },
@@ -32,6 +32,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "gh-pages": "~5.0.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "vite": "^5.0.8"
   }
