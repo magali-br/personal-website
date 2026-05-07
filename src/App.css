@@ -116,9 +116,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  /* Remove height of footer + height of navbar + vertical padding here around contained */
+  /* -207 if title on left, -228 if title centered */
   min-height: calc(100vh - 207px);
-  /* 228 */
-  /* max-width: calc(100vw - 40px); */
 }
 
 body,
@@ -143,7 +144,6 @@ button {
 
 .Container {
   font-size: 20px;
-  /* For below, remove height of footer + height of navbar + vertical padding here around contained */
   display: flex;
   flex-direction: column;
   max-width: 1000px;

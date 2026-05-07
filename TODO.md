@@ -48,13 +48,17 @@
 
 - [x] Remove empty white space below the copyright
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
-- [x] In phone mode, don't allow image on About page to shrink too small
+- [x] Mobile - don't allow image on About page to shrink too small
 - [n/a] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
+- [x] Make page text centered
 
-- [] In phone mode, make navbar vertical
-- [] In phone mode, improve Footer
-- [] Headers should shrink responsively to be smaller in phone mode (adapt line height using @media in App.css)
-- [] Make text centered!!
+- [] Mobile - make navbar vertical
+- [] Mobile - improve Footer
+- [] Mobile - Headers should shrink responsively to be smaller in phone mode (adapt line height using @media in App.css)
+- [] Mobile - scale everything appropriately using @media in App.css
+- [] Get rid of awkward AppContainer CSS line "min-height: calc(100vh - 207px);" - & doesn't work on mobile
+- [] Navbar - Choose between my name left-aligned, menu right-aligned vs both centered with name above menu
+- [] Navbar bug - When shrink too much, background colour is narrower than page and white chunk appears on the right
 
 ## Version control
 
