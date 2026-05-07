@@ -37,7 +37,7 @@
   --header_highlight: #707bf9;
   --footer: #9ba2ff;
   --footer_highlight: #707bf9;
-  --footer_text: #fff;
+  --footer_text: #000;
   --link_highlight: #4b4f80;
 
   /* Provence Blue & Yellow */
@@ -52,16 +52,23 @@
 }
 
 @font-face {
-  font-family: "Amsterdam One";
-  src: url("fonts/AmsterdamOne.ttf") format("truetype");
+  font-family: "Freckle Face";
+  src: url("fonts/FreckleFace-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Freckle Face";
-  src: url("fonts/FreckleFace-Regular.ttf") format("truetype");
+  font-family: "High Tide Sans";
+  src: url("fonts/HighTide-Sans.otf") format("opentype");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "High Tide Sans";
+  src: url("fonts/HighTide-Bold.otf") format("opentype");
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -86,9 +93,8 @@
 }
 
 @font-face {
-  font-family: "Stars & Love";
-  src: url("fonts/Stars&Love-BottomHeavy.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "Space Grotesk";
+  src: url("fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
 }
 
@@ -117,9 +123,10 @@ button {
 }
 
 .Container {
-  padding: 0 80px;
+  padding: 10px 40px;
   font-size: 20px;
-  min-height: calc(100vh - 200px);
+  /* For below, remove height of footer + height of navbar + vertical padding here around contained */
+  min-height: calc(100vh - 177px);
   display: flex;
   flex-direction: column;
   max-width: 1300px;
@@ -161,6 +168,7 @@ button {
   line-height: 40px;
   font-size: 30px;
   font-family: "Sawarabi Mincho";
+  /* font-family: "High Tide Sans"; */
 }
 
 .Subsubtitle {

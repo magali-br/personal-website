@@ -1,5 +1,5 @@
 .Navbar {
-  padding: 35px;
+  padding: 30px 35px 20px 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,30 +8,32 @@
 }
 
 .Title {
-  font-family: "Freckle Face";
-  /* font-family: "Amsterdam One"; */
-  /* font-family: "Stars & Love"; */
-  font-size: 50px;
+  /* font-family: "Freckle Face"; */
+  font-family: "High Tide Sans";
+  letter-spacing: -0.5px;
+  /* margin-top: 10px; */
+  font-weight: bold;
+  font-size: 40px;
   color: var(--title);
   width: fit-content;
-  justify-content: flex-start;
 }
 
 .MenuItems {
   display: flex;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .MenuItemContainer {
   text-align: center;
-  margin: 10px 10px;
+  margin: 0px 10px;
 }
 
 .MenuItem {
   color: var(--title);
-  padding: 3px;
+  /* padding: 3px; */
+  font-family: "High Tide Sans";
   font-weight: bold;
 }
 

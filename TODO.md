@@ -18,10 +18,9 @@
 - [x] Cleanup embedded Google Docs / iFrame errors
 - [x] Fix Google Docs layout not working on phone
 - [x] Footer goes below view screen -> Fixed in App.css > Container > minheight (increased what's substracted)
+- [x] Move to TypeScript
 
 - [] Clean up CSS & make padding standard everywhere
-- [] Move to TypeScript
-- [] Move to NextJS?
 - [] Bug: from Home page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
 - [] Bug: Loading Google form on Coaching page generates "Failed to load resource: net::ERR_FILE_NOT_FOUND"
 
@@ -41,7 +40,7 @@
 - [x] Make more professional
 - [x] Experiment with colours (https://colorkit.co/color/9ba2ff/ is great for this)
 - [x] Add professional photos of me
-- [] Created basic Provence Blue & Yellow brand. To switch, modify src/App.css & src/components/Footer/Footer.jsx
+- [x] Create basic Provence Blue & Yellow brand --> To switch, modify src/App.css & src/components/Footer/Footer.jsx
 
 - [] Make style more modern
 
@@ -55,6 +54,7 @@
 - [] In phone mode, make navbar vertical
 - [] In phone mode, improve Footer
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
+- [] Make text centered!!
 
 ## Version control
 
@@ -66,7 +66,7 @@
 - [x] Expand generate-blog-list to also work for Recipes
 - [x] Separate recipes into desserts, mains, and sides
 
-- [] Add blurb about why I leave this on a coaching website: I love coaches who are humans....
+- [] Add blurb about why I leave Recipe section on a coaching website: I love coaches who are humans....
 - [] Random recipe selector for every category (desserts, mains, sides)
 - [] Explore https://github.com/TandoorRecipes/recipes
 - [] Add a "conversions" section with textboxes for conversions: temperature, tsp, tbsp, flour, butter, (brown, icing) sugar, ...
@@ -81,7 +81,7 @@
 
 ## Books
 
-- [] Add blurb about why I leave this on a coaching website: I love seeing different facets of a person...
+- [] Add blurb about why I leave Books section on a coaching website: I love seeing different facets of a person...
 
 ## Language resources
 

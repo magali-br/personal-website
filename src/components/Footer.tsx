@@ -5,9 +5,9 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   /* With Vista Blue & White branding */
-  const ig_logo = "/img/instagram-logo-white.png";
-  const fb_logo = "/img/facebook-4-512-white.png";
-  const li_logo = "/img/linkedin-3-512-white.png";
+  const ig_logo = "/img/instagram-logo-black.png";
+  const fb_logo = "/img/facebook-4-512-black.png";
+  const li_logo = "/img/linkedin-3-512-black.png";
 
   /* With Provence Blue & Yellow branding */
   // const ig_logo = "/img/instagram-logo-blueprovence.png";
@@ -18,7 +18,7 @@ export const Footer = () => {
     <div className="FooterBackground">
       <span className="FooterInnerBar">
         <span className="FooterLeftBar">
-          <Link className="FooterText" to="/">
+          <Link className="FooterTextLink" to="/">
             {"Home"}
           </Link>
           <a

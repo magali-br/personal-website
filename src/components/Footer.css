@@ -4,7 +4,7 @@
 }
 
 .FooterInnerBar {
-  font-size: 14px;
+  font-size: 11px;
   color: var(--footer_text);
   display: flex;
   justify-content: space-between;
@@ -23,9 +23,12 @@
   margin: 0px 20px 0px 0px;
 }
 
-.FooterText {
+.FooterTextLink {
   padding: 3px;
   margin: 0px 17px 0px 0px;
+  font-family: "High Tide Sans";
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .FooterText:hover {
