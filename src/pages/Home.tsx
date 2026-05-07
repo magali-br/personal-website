@@ -6,9 +6,9 @@ export const Home = () => {
 
   return (
     <div className="Container">
-      <h1 className="Subtitle">Hi, I'm Magali. Welcome.</h1>
+      <h1 className="TextTitle">Hi, I'm Magali. Welcome.</h1>
       <img
-        className="SmallImageVertical"
+        className="ImageSmallVertical"
         src={"/img/magali_dandelion.jpg"}
         alt={
           "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."

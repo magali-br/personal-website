@@ -70,12 +70,12 @@ export const Recipes = () => {
 
   return (
     <div className="Container">
-      <h1 className="Subtitle">Recipes</h1>
+      <h1 className="TextTitle">Recipes</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
         <div>
-          <div className="Subsubtitle">Mains</div>
+          <h2 className="TextSubtitle">Mains</h2>
           <ul>
             {recipesByCategory["main"].map((recipe, index) => (
               <li key={index} className="Bold">
@@ -88,7 +88,7 @@ export const Recipes = () => {
             ))}
           </ul>
 
-          <div className="Subsubtitle">Sides</div>
+          <h2 className="TextSubtitle">Sides</h2>
           <ul>
             {recipesByCategory["side"].map((recipe, index) => (
               <li key={index} className="Bold">
@@ -101,7 +101,7 @@ export const Recipes = () => {
             ))}
           </ul>
 
-          <div className="Subsubtitle">Desserts</div>
+          <h2 className="TextSubtitle">Desserts</h2>
           <ul>
             {recipesByCategory["dessert"].map((recipe, index) => (
               <li key={index} className="Bold">

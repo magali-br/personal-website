@@ -55,7 +55,7 @@ export const BlogDetail = () => {
   return (
     <div className="Container BlogDetail">
       {/* 4. blog is guaranteed to be non-null here thanks to the guard above */}
-      <h1 className="Subtitle">{blog.filename.replace(".md", "")}</h1>
+      <h1 className="TextTitle">{blog.filename.replace(".md", "")}</h1>
       <MarkdownRenderer content={blog.content} />
     </div>
   );

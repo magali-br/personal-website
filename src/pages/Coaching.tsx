@@ -6,9 +6,9 @@ export const Coaching = () => {
 
   return (
     <div className="Container">
-      <h1 className="Subtitle">What is coaching?</h1>
+      <h1 className="TextTitle">What is coaching?</h1>
       <img
-        className="SmallImageHorizontal"
+        className="ImageSmallHorizontal"
         src={"/img/walking_through_iceland_enhanced.jpg"}
         alt={"A photo of Magali walking down a road towards the horizon."}
       />
@@ -49,9 +49,9 @@ export const Coaching = () => {
           step of the way what feels good and what you need and want.
         </p>
       </div>
-      <h1 className="Subtitle">My vision</h1>
+      <h1 className="TextTitle">My vision</h1>
       <img
-        className="SmallImageVertical"
+        className="ImageSmallVertical"
         src={"/img/explorer_in_jungle_square.jpg"}
         alt={"A photo of Magali as an explorer, peering out of a jungle"}
       />
@@ -79,7 +79,7 @@ export const Coaching = () => {
         </p>
       </div>
 
-      <h1 className="Subtitle">Interested?</h1>
+      <h1 className="TextTitle">Interested?</h1>
       <p>
         If you'd like to try working with me as a coach, fill out the following
         form (
@@ -122,7 +122,7 @@ export const Coaching = () => {
         </a>
         .
       </p>
-      {/* <h1 className="Subtitle">Interested?</h1>
+      {/* <h1 className="TextTitle">Interested?</h1>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe
           src="https://tidycal.com/magalibr/intro-call"
@@ -143,7 +143,7 @@ export const Coaching = () => {
         </a>
         .
       </div> */}
-      {/* <h2 className="Subsubtitle">Coaching is... witnessing.</h2>
+      {/* <h2 className="TextSubtitle">Coaching is... witnessing.</h2>
       <div>
         I spent so long repressing so many parts of me that in order to heal, I
         needed to welcome back everything I had labelled as negative: all my
@@ -153,7 +153,7 @@ export const Coaching = () => {
         feel the pain with me. I've been through a lot, but I wasn't able to
         validate that in myself until my coach did.
       </div>
-      <h2 className="Subsubtitle">Coaching is... freeing.</h2>
+      <h2 className="TextSubtitle">Coaching is... freeing.</h2>
       <div>
         My vision is for every single one of us to set ourselves free from any
         expectations that are causing us pain - society's, our family's, our
@@ -163,14 +163,14 @@ export const Coaching = () => {
         it's a noisy world we live in, and as empaths, our own voice gets
         drowned out.
       </div>
-      <h2 className="Subsubtitle">Coaching is... empowering.</h2>
+      <h2 className="TextSubtitle">Coaching is... empowering.</h2>
       <div>
         Coaching empowers you to design and create a life that you want and to
         generate your own solutions. I hold space for you to dig deep within
         yourself and come up with ideas and solutions that fit you on a
         fundamental level.
       </div>
-      <h2 className="Subsubtitle">Coaching is... mentoring (sometimes).</h2>
+      <h2 className="TextSubtitle">Coaching is... mentoring (sometimes).</h2>
       <div>
         As your coach, I might sometimes mentor you and something I think might
         help, but I always ask you to be radically honest about how my idea sits
@@ -180,7 +180,7 @@ export const Coaching = () => {
         really work for you.
       </div>
 
-      <h2 className="Subsubtitle">Coaching is... changing.</h2>
+      <h2 className="TextSubtitle">Coaching is... changing.</h2>
       <div>
         Coaching is about digging deep into how you see yourself and any
         limiting beliefs you hold about yourself or the world. If you choose it,

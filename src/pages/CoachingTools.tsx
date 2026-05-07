@@ -16,9 +16,9 @@ export const CoachingTools = () => {
 
   return (
     <div className="Container">
-      <h1 className="Subtitle">Coaching Tools</h1>
+      <h1 className="TextTitle">Coaching Tools</h1>
       <div>
-        <h2 className="Subsubtitle">Lists of Values</h2>
+        <h2 className="TextSubtitle">Lists of Values</h2>
         <p>
           Values are a great tool for living more purposefully. The first step
           is to figure out what values are important to you, then to try to
@@ -39,7 +39,7 @@ export const CoachingTools = () => {
         </p>
       </div>
       <div>
-        <h2 className="Subsubtitle">Values Generator</h2>
+        <h2 className="TextSubtitle">Values Generator</h2>
         <p>
           If life feels a bit aimless or overwhelming right now, or if you're
           just looking for some inspiration, generate a value and see how it
@@ -49,7 +49,7 @@ export const CoachingTools = () => {
           <button type="button" onClick={regenerateValue}>
             Generate a value
           </button>
-          <p className="SameFontAsTitle Italic">{randomValue}</p>
+          <p className="TextSameFontAsTitle Italic">{randomValue}</p>
         </p>
         <p>
           Once you have a value that feels good, play around with it. Stick with

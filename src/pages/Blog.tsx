@@ -30,7 +30,7 @@ export const Blog = () => {
 
   return (
     <div className="Container">
-      <h1 className="Subtitle">Blog entries</h1>
+      <h1 className="TextTitle">Blog entries</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (

@@ -88,7 +88,7 @@ export const RecipeDetail: React.FC = () => {
         <p>Loading...</p>
       ) : recipe ? (
         <div>
-          <h1 className="Subtitle">{RecipeTitle(recipe)}</h1>
+          <h1 className="TextTitle">{RecipeTitle(recipe)}</h1>
           <RecipePhoto recipe={recipe} />
           <MarkdownRenderer content={recipe.content} />
         </div>

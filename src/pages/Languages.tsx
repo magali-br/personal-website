@@ -1,7 +1,7 @@
 export const Languages = () => {
   return (
     <div className="Container">
-      <h1 className="Subtitle">
+      <h1 className="TextTitle">
         bienvenue - welcome - willkommen - bienvenidos - أهلا وسهلا - dobrodošli
         - bonvenon - céad míle fáilte - degemer mat - خوش آمدید - स्वागत -
         bainvegni
@@ -13,7 +13,7 @@ export const Languages = () => {
       </p>
 
       <div>
-        <h1 className="Subtitle">General resources</h1>
+        <h1 className="TextTitle">General resources</h1>
         <p>
           <a
             className="VisibleLink"
@@ -61,10 +61,10 @@ export const Languages = () => {
       </div>
 
       <div>
-        <h1 className="Subtitle">Resources by language</h1>
+        <h1 className="TextTitle">Resources by language</h1>
 
         <div>
-          <h2 className="Subsubtitle">German</h2>
+          <h2 className="TextSubtitle">German</h2>
           <p>
             <span className="Bold">Dictionary</span>: I love Leo! You can
             translate from any language into German, and the user discussions
@@ -82,7 +82,7 @@ export const Languages = () => {
         </div>
 
         <div>
-          <h2 className="Subsubtitle">Swiss German</h2>
+          <h2 className="TextSubtitle">Swiss German</h2>
           <p>
             <span className="Bold">Dictionary</span>: No good dictionary found
             so far. I'm very bitter about this.

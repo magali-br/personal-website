@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <div className="Container">
       <div>
-        <h1 className="Subtitle">Who I am</h1>
+        <h1 className="TextTitle">Who I am</h1>
         <p>
           I'm a coach, writer, dancer, linguist, and software engineer,
           passionate about experiencing wonder and making the world a better
@@ -14,7 +14,7 @@ export const About = () => {
           travelling between worlds and jumping in and out as I please.
         </p>
         <img
-          className="SmallImageVertical"
+          className="ImageSmallVertical"
           src={"/img/magali_montpellier_cropped.jpg"}
           alt={
             "A photo of Magali with her hand outstretched towards a vine growing on the facade of a white house."
@@ -22,7 +22,7 @@ export const About = () => {
         />
       </div>
       <div>
-        <h1 className="Subtitle">My story</h1>
+        <h1 className="TextTitle">My story</h1>
         <p>
           Early in 2024, after ten years in tech, nine years working as a
           software engineer and tech lead at Google, and two long burnouts, I
@@ -48,7 +48,7 @@ export const About = () => {
         </p>
       </div>
       <div>
-        <h1 className="Subtitle">How do you pronounce that?</h1>
+        <h1 className="TextTitle">How do you pronounce that?</h1>
         My name is Magali, pronounced
         <ul>
           <li>['mæ:gəli] i.e. MA-guh-lee in English,</li>
