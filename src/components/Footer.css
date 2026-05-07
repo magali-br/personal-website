@@ -31,7 +31,7 @@
   font-size: 14px;
 }
 
-.FooterText:hover {
+.FooterTextLink:hover {
   background-color: var(--footer_highlight);
   cursor: pointer;
 }

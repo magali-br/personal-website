@@ -118,8 +118,8 @@ a {
   align-items: center;
 
   /* Remove height of footer + height of navbar + vertical padding here around contained */
-  /* -207 if title on left, -228 if title centered */
-  min-height: calc(100vh - 207px);
+  /* -207px if title on left, -228px if title centered */
+  min-height: calc(100vh - 228px);
 }
 
 body,
