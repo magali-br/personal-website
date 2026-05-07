@@ -1,5 +1,3 @@
-import "./Books.css";
-
 export const Books = () => {
   const nonFictionBooksSheetShareUrl =
     "https://docs.google.com/spreadsheets/d/11qa-sXCDfMki8rj4OEC3aWGPZcHtS7Ka9keVDM9krj0/view";
@@ -11,7 +9,7 @@ export const Books = () => {
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vSA4l-8bGV6y4HgU12-lJlF8-WN9_zPYzw4FfVk34zDvqzsAfaqthfIitOPbcs0soXC6EPaunaU88vx/pubhtml?widget=true&amp;headers=false";
 
   return (
-    <div className="Books Container">
+    <div className="Container">
       <div>
         <p>
           An evergrowing list of{" "}
@@ -26,7 +24,7 @@ export const Books = () => {
           :
         </p>
       </div>
-      <div className="w-full GoogleDoc">
+      <div className="w-full">
         <iframe
           src={nonFictionBooksSheetEmbedUrl}
           width="100%"
@@ -53,7 +51,7 @@ export const Books = () => {
           :
         </p>
       </div>
-      <div className="w-full GoogleDoc">
+      <div className="w-full">
         <iframe
           src={fictionBooksSheetEmbedUrl}
           width="100%"

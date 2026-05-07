@@ -1,4 +1,3 @@
-import "./Home.css";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -6,34 +5,31 @@ export const Home = () => {
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
 
   return (
-    <div className="Home Container">
-      <div className="HomeQuestion">
-        <h1 className="Subtitle">Hi, I'm Magali. Welcome.</h1>
-        <img
-          className="SmallImageVertical"
-          src={"/img/magali_dandelion.jpg"}
-          alt={
-            "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
-          }
-        />
-        <p>
-          Curious about working with me as a{" "}
-          <Link className="VisibleLink" to="/coaching">
-            {"  "}coach
-          </Link>
-          ? Fill out my{" "}
-          <a
-            className="VisibleLink Link"
-            href={coachingInterestFormExternalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            coaching interest form
-          </a>
-          .
-        </p>
-        <p>
-          {/* Is there is a{" "}
+    <div className="Container">
+      <h1 className="Subtitle">Hi, I'm Magali. Welcome.</h1>
+      <img
+        className="SmallImageVertical"
+        src={"/img/magali_dandelion.jpg"}
+        alt={
+          "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
+        }
+      />
+      <p>
+        Curious about working with me as a{" "}
+        <Link className="VisibleLink" to="/coaching">
+          {"  "}coach
+        </Link>
+        ? Fill out my{" "}
+        <a
+          className="VisibleLink Link"
+          href={coachingInterestFormExternalUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          coaching interest form
+        </a>
+        .<p></p>
+        {/* Is there is a{" "}
           <Link className="VisibleLink" to="/languages">
             {" "}
             language resources
@@ -49,27 +45,26 @@ export const Home = () => {
             book recommendation
           </Link>
           ?  */}
-          You can also send me a message on{" "}
-          <a
-            className="VisibleLink Link"
-            href="https://www.linkedin.com/in/magali-br/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>{" "}
-          or{" "}
-          <a
-            className="VisibleLink Link"
-            href="https://www.instagram.com/offbeatcoaching/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-          .
-        </p>
-      </div>
+        You can also send me a message on{" "}
+        <a
+          className="VisibleLink Link"
+          href="https://www.linkedin.com/in/magali-br/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>{" "}
+        or{" "}
+        <a
+          className="VisibleLink Link"
+          href="https://www.instagram.com/offbeatcoaching/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        .
+      </p>
     </div>
   );
 };

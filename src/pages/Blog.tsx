@@ -29,7 +29,7 @@ export const Blog = () => {
   }, []);
 
   return (
-    <div className="Container Blog">
+    <div className="Container">
       <h1 className="Subtitle">Blog entries</h1>
       {loading ? (
         <p>Loading...</p>

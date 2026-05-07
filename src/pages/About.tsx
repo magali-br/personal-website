@@ -1,9 +1,7 @@
-import "./About.css";
-
 export const About = () => {
   return (
-    <div className="About Container">
-      <div className="AboutQuestion">
+    <div className="Container">
+      <div>
         <h1 className="Subtitle">Who I am</h1>
         <p>
           I'm a coach, writer, dancer, linguist, and software engineer,
@@ -23,23 +21,23 @@ export const About = () => {
           }
         />
       </div>
-      <div className="AboutQuestion">
+      <div>
         <h1 className="Subtitle">My story</h1>
-        <div className="TextContent">
+        <p>
           Early in 2024, after ten years in tech, nine years working as a
           software engineer and tech lead at Google, and two long burnouts, I
           finally decided that I'd had enough. I'd been craving new adventures
           and a path that felt more aligned for years, but I couldn't figure out
           in which direction to go, and it was working with a coach that finally
           gave me the courage to take the leap.
-        </div>
-        <div className="TextContent">
+        </p>
+        <p>
           In June, I left my safe job. The space and time to myself finally gave
           me the energy to make the changes in myself that I had been trying to
           make for years. Six months later, I decided to honour an idea I'd had
           for years and took the leap to becoming a coach.
-        </div>
-        <div className="TextContent">
+        </p>
+        <p>
           I value deep empathy, honesty, authenticity, and vulnerability. I
           celebrate every act of courage, especially when it comes to digging
           deeper, understanding my triggers, and facing my fears. My favourite
@@ -47,9 +45,9 @@ export const About = () => {
           pursuit of freedom - liberation from everything that isn't serving me,
           whether expectations or fear, whether internally or externally
           imposed.
-        </div>
+        </p>
       </div>
-      <div className="AboutQuestion">
+      <div>
         <h1 className="Subtitle">How do you pronounce that?</h1>
         My name is Magali, pronounced
         <ul>

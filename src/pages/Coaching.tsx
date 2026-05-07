@@ -1,5 +1,3 @@
-import "./Coaching.css";
-
 export const Coaching = () => {
   const coachingInterestFormEmbedUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?embedded=true";
@@ -7,14 +5,14 @@ export const Coaching = () => {
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
 
   return (
-    <div className="Coaching Container">
+    <div className="Container">
       <h1 className="Subtitle">What is coaching?</h1>
       <img
         className="SmallImageHorizontal"
         src={"/img/walking_through_iceland_enhanced.jpg"}
         alt={"A photo of Magali walking down a road towards the horizon."}
       />
-      <div className="TextContent">
+      <div>
         <b>
           Coaching is a space for you to reflect, process, and express
           yourself.{" "}
@@ -57,7 +55,7 @@ export const Coaching = () => {
         src={"/img/explorer_in_jungle_square.jpg"}
         alt={"A photo of Magali as an explorer, peering out of a jungle"}
       />
-      <div className="TextContent">
+      <div>
         I founded my coaching business with a big mission. I dream of a world in
         which empathy is the norm, and in which we recognize every one of our
         strengths and celebrate every difference.{" "}
@@ -82,7 +80,7 @@ export const Coaching = () => {
       </div>
 
       <h1 className="Subtitle">Interested?</h1>
-      <div className="TextContent">
+      <p>
         If you'd like to try working with me as a coach, fill out the following
         form (
         <a
@@ -94,7 +92,7 @@ export const Coaching = () => {
           external link
         </a>
         ):
-      </div>
+      </p>
       <iframe
         src={coachingInterestFormEmbedUrl}
         width="100%"
@@ -103,8 +101,7 @@ export const Coaching = () => {
       >
         Loading…
       </iframe>
-      <p></p>
-      <div className="TextContent">
+      <p>
         You can also message me on{" "}
         <a
           className="VisibleLink Link"
@@ -124,7 +121,7 @@ export const Coaching = () => {
           Instagram
         </a>
         .
-      </div>
+      </p>
       {/* <h1 className="Subtitle">Interested?</h1>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe
@@ -134,7 +131,7 @@ export const Coaching = () => {
           frameBorder="0"
         ></iframe>
       </div>
-      <div className="TextContent">
+      <div>
         You can also message me on{" "}
         <a
           className="VisibleLink Link"
@@ -147,7 +144,7 @@ export const Coaching = () => {
         .
       </div> */}
       {/* <h2 className="Subsubtitle">Coaching is... witnessing.</h2>
-      <div className="TextContent">
+      <div>
         I spent so long repressing so many parts of me that in order to heal, I
         needed to welcome back everything I had labelled as negative: all my
         dark or "wrong" emotions, my indecisiveness, my needs, my frustrations
@@ -157,7 +154,7 @@ export const Coaching = () => {
         validate that in myself until my coach did.
       </div>
       <h2 className="Subsubtitle">Coaching is... freeing.</h2>
-      <div className="TextContent">
+      <div>
         My vision is for every single one of us to set ourselves free from any
         expectations that are causing us pain - society's, our family's, our
         job's, our inner critic's. I help my clients distinguish between what
@@ -167,14 +164,14 @@ export const Coaching = () => {
         drowned out.
       </div>
       <h2 className="Subsubtitle">Coaching is... empowering.</h2>
-      <div className="TextContent">
+      <div>
         Coaching empowers you to design and create a life that you want and to
         generate your own solutions. I hold space for you to dig deep within
         yourself and come up with ideas and solutions that fit you on a
         fundamental level.
       </div>
       <h2 className="Subsubtitle">Coaching is... mentoring (sometimes).</h2>
-      <div className="TextContent">
+      <div>
         As your coach, I might sometimes mentor you and something I think might
         help, but I always ask you to be radically honest about how my idea sits
         with you. Once we find an idea that feels good, I'll ask you to
@@ -182,8 +179,9 @@ export const Coaching = () => {
         and what didn't so that we can dig even deeper and find paths that
         really work for you.
       </div>
+
       <h2 className="Subsubtitle">Coaching is... changing.</h2>
-      <div className="TextContent">
+      <div>
         Coaching is about digging deep into how you see yourself and any
         limiting beliefs you hold about yourself or the world. If you choose it,
         this allows you to rewrite how you see yourself and how you interact

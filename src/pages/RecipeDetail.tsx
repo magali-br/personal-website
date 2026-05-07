@@ -1,4 +1,3 @@
-import "./RecipeDetail.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import MarkdownRenderer from "../MarkdownRenderer";
@@ -31,7 +30,7 @@ const RecipePhoto: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
   if (recipe.metadata && recipe.metadata.image) {
     return (
       <img
-        className="RecipeDetailImage"
+        className="ImageLarge"
         src={`/img/${recipe.metadata.image}`}
         alt={`A photo of ${RecipeTitle(recipe)}`}
       />

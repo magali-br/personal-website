@@ -123,10 +123,10 @@ button {
 }
 
 .Container {
-  padding: 10px 40px;
+  padding: 10px 40px 40px 40px;
   font-size: 20px;
   /* For below, remove height of footer + height of navbar + vertical padding here around contained */
-  min-height: calc(100vh - 177px);
+  min-height: calc(100vh - 207px);
   display: flex;
   flex-direction: column;
   max-width: 1300px;
@@ -162,9 +162,13 @@ button {
   margin: 20px 0px;
 }
 
+.ImageLarge {
+  width: 60%;
+  border-radius: 8px;
+}
+
 .Subtitle {
   width: fit-content;
-  margin-bottom: 20px;
   line-height: 40px;
   font-size: 30px;
   font-family: "Sawarabi Mincho";
@@ -173,9 +177,12 @@ button {
 
 .Subsubtitle {
   width: fit-content;
-  margin-bottom: 20px;
-  line-height: 30px;
+  line-height: 24px;
   font-size: 22px;
+  font-family: "Sawarabi Mincho";
+}
+
+.SameFontAsTitle {
   font-family: "Sawarabi Mincho";
 }
 

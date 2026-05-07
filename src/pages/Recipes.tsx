@@ -69,16 +69,16 @@ export const Recipes = () => {
   }, []);
 
   return (
-    <div className="Container Recipes">
+    <div className="Container">
       <h1 className="Subtitle">Recipes</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <div className="RecipeTitleList">
+        <div>
           <div className="Subsubtitle">Mains</div>
           <ul>
             {recipesByCategory["main"].map((recipe, index) => (
-              <li key={index} className="RecipeTitle Bold">
+              <li key={index} className="Bold">
                 <Link to={`/recipes/${recipe.slug}`}>
                   {recipe.metadata.title
                     ? recipe.metadata.title
@@ -91,7 +91,7 @@ export const Recipes = () => {
           <div className="Subsubtitle">Sides</div>
           <ul>
             {recipesByCategory["side"].map((recipe, index) => (
-              <li key={index} className="RecipeTitle Bold">
+              <li key={index} className="Bold">
                 <Link to={`/recipes/${recipe.slug}`}>
                   {recipe.metadata.title
                     ? recipe.metadata.title
@@ -104,7 +104,7 @@ export const Recipes = () => {
           <div className="Subsubtitle">Desserts</div>
           <ul>
             {recipesByCategory["dessert"].map((recipe, index) => (
-              <li key={index} className="RecipeTitle Bold">
+              <li key={index} className="Bold">
                 <Link to={`/recipes/${recipe.slug}`}>
                   {recipe.metadata.title
                     ? recipe.metadata.title
@@ -115,7 +115,7 @@ export const Recipes = () => {
           </ul>
         </div>
       )}
-      <p className="Italic RecipeIntro">
+      <p className="Italic">
         N.B.: These recipes are optimized for my kitchen. You might need to
         adapt baking times and oven temperatures to your own.
       </p>
