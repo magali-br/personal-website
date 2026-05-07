@@ -85,7 +85,7 @@
 
 ## Books
 
-- [] Add blurb about why I leave Books section on a coaching website: I love seeing different facets of a person...
+- [x] Add blurb about why I leave Books section on a coaching website: I love seeing different facets of a person...
 
 ## Language resources
 

@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   /* For centered navbar title and menu, set flex-direction to column.  */
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 .NavbarTitle {
@@ -17,7 +17,7 @@
   color: var(--title);
   width: fit-content;
   /*  For centered navbar title and menu, set text-align to center.  */
-  /* text-align: center; */
+  text-align: center;
 }
 
 .MenuItems {
