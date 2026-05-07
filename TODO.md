@@ -19,8 +19,8 @@
 - [x] Fix Google Docs layout not working on phone
 - [x] Footer goes below view screen -> Fixed in App.css > Container > minheight (increased what's substracted)
 - [x] Move to TypeScript
+- [x] Clean up CSS & make padding standard everywhere
 
-- [] Clean up CSS & make padding standard everywhere
 - [] Bug: from Home page, clicking on "coach" or "language resources" sends you to bottom of new page. Should scroll back up to top.
 - [] Bug: Loading Google form on Coaching page generates "Failed to load resource: net::ERR_FILE_NOT_FOUND"
 
@@ -53,7 +53,7 @@
 
 - [] In phone mode, make navbar vertical
 - [] In phone mode, improve Footer
-- [] Headers should shrink responsively to be smaller in phone mode (adapt line height)
+- [] Headers should shrink responsively to be smaller in phone mode (adapt line height using @media in App.css)
 - [] Make text centered!!
 
 ## Version control

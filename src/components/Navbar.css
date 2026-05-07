@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  /* flex-direction: column; */
   background-color: var(--header);
 }
 
@@ -11,16 +11,15 @@
   /* font-family: "Freckle Face"; */
   font-family: "High Tide Sans";
   letter-spacing: -0.5px;
-  /* margin-top: 10px; */
   font-weight: bold;
   font-size: 40px;
   color: var(--title);
   width: fit-content;
+  /* text-align: center; */
 }
 
 .MenuItems {
   display: flex;
-  /* margin-top: 10px; */
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -32,7 +31,6 @@
 
 .MenuItem {
   color: var(--title);
-  /* padding: 3px; */
   font-family: "High Tide Sans";
   font-weight: bold;
 }

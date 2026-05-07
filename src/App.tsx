@@ -18,18 +18,20 @@ function App() {
     <Router basename="/">
       <div className="App">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/languages" element={<Languages />} />
-          <Route path="/recipes/*" element={<Recipes />} />
-          <Route path="/recipes/:id" element={<RecipeDetail />} />
-          <Route path="/books" element={<Books />} />
-          <Route path="/coaching" element={<Coaching />} />
-          <Route path="/coachingtools" element={<CoachingTools />} />
-          <Route path="/values" element={<Values />} />
-          <Route path="/valeurs" element={<Valeurs />} />
-        </Routes>
+        <div className="AppContainer">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/languages" element={<Languages />} />
+            <Route path="/recipes/*" element={<Recipes />} />
+            <Route path="/recipes/:id" element={<RecipeDetail />} />
+            <Route path="/books" element={<Books />} />
+            <Route path="/coaching" element={<Coaching />} />
+            <Route path="/coachingtools" element={<CoachingTools />} />
+            <Route path="/values" element={<Values />} />
+            <Route path="/valeurs" element={<Valeurs />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
