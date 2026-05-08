@@ -9,40 +9,40 @@ export const Navbar = () => {
       </Link>
       <div className="MenuItems">
         <div className="MenuItemContainer">
-          <Link to="/coaching">
-            <span className="MenuItem">coaching</span>
+          <Link className="MenuItem" to="/coaching">
+            {"coaching"}
           </Link>
         </div>
         {/* <div className="MenuItemContainer">
-          <Link to="/coachingtools">
-            <span className="MenuItem">coaching tools</span>
+          <Link className="MenuItem" to="/blog">
+            {"blog"}
           </Link>
-        </div>
-        <div className="MenuItemContainer">
-          <Link to="/languages">
-            <span className="MenuItem">languages</span>
+        </div> */}
+        {/* <div className="MenuItemContainer">
+          <Link className="MenuItem" to="/coachingtools">
+            {"coaching tools"}
           </Link>
         </div> */}
         <div className="MenuItemContainer">
-          <Link to="/books">
-            <span className="MenuItem">books</span>
-          </Link>
-        </div>
-        <div className="MenuItemContainer">
-          <Link to="/recipes">
-            <span className="MenuItem">recipes</span>
-          </Link>
-        </div>
-        <div className="MenuItemContainer">
-          <Link to="/about">
-            <span className="MenuItem">about</span>
+          <Link className="MenuItem" to="/books">
+            {"reading"}
           </Link>
         </div>
         {/* <div className="MenuItemContainer">
-          <Link to="/blog">
-            <span className="MenuItem">blog</span>
+          <Link className="MenuItem" to="/languages">
+            {"languages"}
           </Link>
         </div> */}
+        <div className="MenuItemContainer">
+          <Link className="MenuItem" to="/recipes">
+            {"recipes"}
+          </Link>
+        </div>
+        <div className="MenuItemContainer">
+          <Link className="MenuItem" to="/about">
+            {"about"}
+          </Link>
+        </div>
       </div>
     </div>
   );

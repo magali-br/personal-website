@@ -8,7 +8,6 @@ interface BlogEntry {
 }
 
 export const Blog = () => {
-  // 2. Explicitly type the state
   const [blogs, setBlogs] = useState<BlogEntry[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 

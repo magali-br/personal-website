@@ -10,31 +10,33 @@ export const Books = () => {
 
   return (
     <div className="Container">
-      <p>
-        I love to read, both fiction and nonfiction. As a child, I devoured
-        books. I have always loved stories, words, the ability each one of us
-        has to express something in our own unique way. When I became an adult,
-        I grew afraid that I was wasting my time reading fiction, and strived to
-        engage with the real world instead. This was a good goal, until it
-        became a I tried to live it out 24/7. Then came the burnouts.
-      </p>
-      <p>
-        I now understand that I actually <i>need</i> reading.
-      </p>
-      <p>
-        Nonfiction is my favourite way to engage with new ideas: it's
-        slow-paced, quiet, allows for reflection, creates space for me to engage
-        deeply with the topic. But fiction soothes me, calms me down, transports
-        me into lives I'll never have the chance to live. It also brings me
-        emotions, excitement, and novelty in a way that real life can't compete
-        with.
-      </p>
-      <p>
-        Fiction, and well-written nonfiction, teaches us about the world:
-        through storytelling, through other people's errors and explorations,
-        we, too, grow and gather experience we can use to choose how to interact
-        with the world.{" "}
-      </p>
+      <div>
+        <p>
+          I love to read, both fiction and nonfiction. As a child, I devoured
+          books. I have always loved stories, words, the ability each one of us
+          has to express something in our own unique way. When I became an
+          adult, I grew afraid that I was wasting my time reading fiction, and
+          strived to engage with the real world instead. This was a good goal,
+          until it became a I tried to live it out 24/7. Then came the burnouts.
+        </p>
+        <p>
+          I now understand that I actually <i>need</i> reading.
+        </p>
+        <p>
+          Nonfiction is my favourite way to engage with new ideas: it's
+          slow-paced, quiet, allows for reflection, creates space for me to
+          engage deeply with the topic. But fiction soothes me, calms me down,
+          transports me into lives I'll never have the chance to live. It also
+          brings me emotions, excitement, and novelty in a way that real life
+          can't compete with.
+        </p>
+        <p>
+          Fiction, and well-written nonfiction, teaches us about the world:
+          through storytelling, through other people's errors and explorations,
+          we, too, grow and gather experience we can use to choose how to
+          interact with the world.{" "}
+        </p>
+      </div>
       <p>
         Here is my evergrowing list of{" "}
         <a

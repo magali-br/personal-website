@@ -11,6 +11,8 @@ import { Coaching } from "./pages/Coaching";
 import { CoachingTools } from "./pages/CoachingTools";
 import { Values } from "./pages/Values";
 import { Valeurs } from "./pages/Valeurs";
+import { Blog } from "./pages/Blog";
+import { BlogDetail } from "./pages/BlogDetail";
 import "./App.css";
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
             <Route path="/coachingtools" element={<CoachingTools />} />
             <Route path="/values" element={<Values />} />
             <Route path="/valeurs" element={<Valeurs />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogDetail />} />
           </Routes>
         </div>
         <Footer />

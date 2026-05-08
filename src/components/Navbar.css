@@ -29,16 +29,17 @@
 .MenuItemContainer {
   text-align: center;
   margin: 0px 10px;
+  transition: transform 0.25s ease-out;
+}
+
+.MenuItemContainer:hover {
+  transform: scale(1.25);
 }
 
 .MenuItem {
   color: var(--title);
   font-family: "High Tide Sans";
+  font-size: 16px;
   font-weight: bold;
   padding: 3px;
-}
-
-.MenuItem:hover {
-  background-color: var(--header_highlight);
-  cursor: pointer;
 }

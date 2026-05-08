@@ -21,6 +21,11 @@
   width: 24px;
   height: 24px;
   margin: 0px 20px 0px 0px;
+  transition: transform 0.25s ease-out;
+}
+
+.FooterIcon:hover {
+  transform: scale(1.25);
 }
 
 .FooterTextLink {
@@ -29,9 +34,9 @@
   font-family: "High Tide Sans";
   font-weight: bold;
   font-size: 14px;
+  transition: transform 0.25s ease-out;
 }
 
 .FooterTextLink:hover {
-  background-color: var(--footer_highlight);
-  cursor: pointer;
+  transform: scale(1.25);
 }
