@@ -59,7 +59,7 @@ export const Footer = () => {
           </a>
         </span>
 
-        <span>© {currentYear}, Magali Boizot Roche.</span>
+        <span>© {currentYear} Magali Boizot Roche</span>
       </span>
     </div>
   );

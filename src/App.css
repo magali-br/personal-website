@@ -246,4 +246,16 @@ button {
   * {
     text-align: left;
   }
+
+  .MenuItemContainer:hover {
+    transform: none;
+  }
+
+  .FooterIcon:hover {
+    transform: none;
+  }
+
+  .FooterTextLink:hover {
+    transform: none;
+  }
 }
