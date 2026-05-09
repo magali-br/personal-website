@@ -84,16 +84,16 @@ export const Recipes = () => {
         <p>
           Bon appétit... buen provecho... صحتين ... Guten Appetit... en guete!
         </p>
-        <img
+        {/* <img
           className="ImageSmallerHorizontal"
           src={"/img/ice_cream.jpg"}
           alt={"A photo of Magali eating ice cream on a stick."}
-        />
-        {/* <img
+        /> */}
+        <img
           className="ImageSmallVertical"
           src={"/img/restaurant_vietnamese.jpg"}
           alt={"A photo of Magali eating pho with chopsticks."}
-        /> */}
+        />
         {/* <img
           className="ImageSmallVertical"
           src={"/img/restaurant_vietnamese_cropped_again.jpg"}
