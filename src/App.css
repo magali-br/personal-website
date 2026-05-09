@@ -215,6 +215,12 @@ button:hover {
   border-radius: 8px;
 }
 
+.ImageSmallerVertical {
+  width: 15%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .ImageSmallHorizontal {
   width: 45%;
   height: auto;

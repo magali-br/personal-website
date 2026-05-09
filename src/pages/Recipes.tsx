@@ -89,16 +89,27 @@ export const Recipes = () => {
           src={"/img/ice_cream.jpg"}
           alt={"A photo of Magali eating ice cream on a stick."}
         /> */}
-        <img
+        {/* <img
           className="ImageSmallVertical"
           src={"/img/restaurant_vietnamese.jpg"}
           alt={"A photo of Magali eating pho with chopsticks."}
-        />
+        /> */}
         {/* <img
           className="ImageSmallVertical"
           src={"/img/restaurant_vietnamese_cropped_again.jpg"}
           alt={"A photo of Magali eating pho with chopsticks."}
         /> */}
+        <img
+          className="ImageSmallerVertical"
+          src={"/img/chef_hat.jpg"}
+          alt={
+            "A photo of Magali as a child, wearing a white apron and a chef's hat."
+          }
+        />
+        <div className="Italic">
+          Proudly displaying a chef's hat (and an apron, and a pyjama) that I
+          sewed myself!
+        </div>
       </div>
       <h1 className="TextTitle">Recipes</h1>
       {loading ? (
