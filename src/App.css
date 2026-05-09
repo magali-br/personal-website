@@ -155,8 +155,8 @@ body {
 
   /* Smooth transition for the hover effect */
   transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease;
+    background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .ButtonStyle:hover {
