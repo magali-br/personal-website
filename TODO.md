@@ -78,6 +78,10 @@
 - [] Add something about coaching to the home page.
 - [] Make home page stronger.
 
+## About
+
+- [] Add pronunciation mp3 for my name.
+
 ## Coaching + Coaching Tools
 
 - [x] Create values generator for weekly inspiration
