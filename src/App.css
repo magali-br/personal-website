@@ -138,8 +138,20 @@ body {
 }
 
 button {
-  width: fit-content;
-  font-weight: bold;
+  font-size: 18px;
+  font-family: "High Tide Sans";
+  background-color: var(--provence_blue);
+  border-color: var(--provence_blue);
+  color: #fff;
+  border-style: solid;
+  border-radius: 30px;
+  /* If use Red Hat Display font, pad top & bottom at 3px */
+  padding: 7px 40px 3px 40px;
+}
+
+button:hover {
+  background-color: #3a3a3a;
+  border-color: #3a3a3a;
 }
 
 .Container {
@@ -197,7 +209,9 @@ button {
   font-family: "Sawarabi Mincho";
 }
 
-.TextSameFontAsTitle {
+.CoachingToolsGeneratedValue {
+  padding-left: 20px;
+  font-style: italic;
   font-family: "Sawarabi Mincho";
 }
 

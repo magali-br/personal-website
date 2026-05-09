@@ -1,8 +1,10 @@
 import { useState } from "react";
 import valuesFile from "../values.json";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const CoachingTools = () => {
+  const navigate = useNavigate();
+
   const getRandomString = (array: string[]): string => {
     if (array.length === 0) return "";
     const randomObject = array[Math.floor(Math.random() * array.length)];
@@ -26,16 +28,14 @@ export const CoachingTools = () => {
         </p>
 
         <p>
-          <div>
-            <Link className="VisibleLink" to="/values">
-              {"  "}list of values (English)
-            </Link>
-          </div>
-          <div>
-            <Link className="VisibleLink" to="/valeurs">
-              {"  "}liste de valeurs (français)
-            </Link>
-          </div>
+          <button type="button" onClick={() => navigate("/values")}>
+            list of values (English)
+          </button>
+        </p>
+        <p>
+          <button type="button" onClick={() => navigate("/valeurs")}>
+            liste de valeurs (français)
+          </button>
         </p>
       </div>
       <div>
@@ -49,7 +49,7 @@ export const CoachingTools = () => {
           <button type="button" onClick={regenerateValue}>
             Generate a value
           </button>
-          <p className="TextSameFontAsTitle Italic">{randomValue}</p>
+          <span className="CoachingToolsGeneratedValue">{randomValue}</span>
         </p>
         <p>
           Once you have a value that feels good, play around with it. Stick with
