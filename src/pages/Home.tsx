@@ -1,12 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Home = () => {
+  const navigate = useNavigate();
   const coachingInterestFormExternalUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
 
+  const navigateToExternalUrl = (url: string) => {
+    window.location.href = url;
+  };
+
   return (
     <div className="Container">
-      <h1 className="TextTitle">Hi, I'm Magali. Welcome.</h1>
+      <h1 className="TextTitle">I'm Magali. Welcome.</h1>
       <img
         className="ImageSmallVertical"
         src={"/img/magali_dandelion.jpg"}
@@ -14,38 +19,25 @@ export const Home = () => {
           "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
         }
       />
-      <p>
-        Curious about working with me as a{" "}
-        <Link className="VisibleLink" to="/coaching">
-          {"  "}coach
-        </Link>
-        ? Fill out my{" "}
-        <a
-          className="VisibleLink Link"
-          href={coachingInterestFormExternalUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          coaching interest form
-        </a>
-        .<p></p>
-        {/* Is there is a{" "}
-          <Link className="VisibleLink" to="/languages">
-            {" "}
-            language resources
-          </Link>{" "}
-          you'd like to contribute or see here? Do you have a question about a{" "}
-          <Link className="VisibleLink" to="/recipes">
-            {" "}
-            recipe
+      <div>
+        Do you want to work with me as a coach?
+        <p className="NavigationButton">
+          <a
+            href={coachingInterestFormExternalUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="ButtonStyle"
+          >
+            Fill out my coaching interest form
+          </a>
+        </p>
+        Curious to learn more about coaching?
+        <p className="NavigationButton">
+          <Link to="/coaching" className="ButtonStyle">
+            Learn more about coaching
           </Link>
-          , or a comment on a{" "}
-          <Link className="VisibleLink" to="/books">
-            {" "}
-            book recommendation
-          </Link>
-          ?  */}
-        You can also send me a message on{" "}
+        </p>
+        Questions? Send me a message on{" "}
         <a
           className="VisibleLink Link"
           href="https://www.linkedin.com/in/magali-br/"
@@ -64,7 +56,7 @@ export const Home = () => {
           Instagram
         </a>
         .
-      </p>
+      </div>
     </div>
   );
 };

@@ -1,10 +1,8 @@
 import { useState } from "react";
 import valuesFile from "../values.json";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const CoachingTools = () => {
-  const navigate = useNavigate();
-
   const getRandomString = (array: string[]): string => {
     if (array.length === 0) return "";
     const randomObject = array[Math.floor(Math.random() * array.length)];
@@ -27,15 +25,15 @@ export const CoachingTools = () => {
           align your life more with them.
         </p>
 
-        <p>
-          <button type="button" onClick={() => navigate("/values")}>
+        <p className="NavigationButton">
+          <Link to="/values" className="ButtonStyle">
             list of values (English)
-          </button>
+          </Link>
         </p>
-        <p>
-          <button type="button" onClick={() => navigate("/valeurs")}>
+        <p className="NavigationButton">
+          <Link to="/valeurs" className="ButtonStyle">
             liste de valeurs (français)
-          </button>
+          </Link>
         </p>
       </div>
       <div>
