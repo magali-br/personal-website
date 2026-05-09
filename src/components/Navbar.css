@@ -1,5 +1,5 @@
 .Navbar {
-  background-color: var(--header);
+  background-color: var(--header_colour);
   padding: 30px 35px 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@
   letter-spacing: -0.5px;
   font-weight: bold;
   font-size: 40px;
-  color: var(--title);
+  color: var(--title_colour);
   width: fit-content;
   /*  For centered navbar title and menu, set text-align to center.  */
   text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .MenuItem {
-  color: var(--title);
+  color: var(--title_colour);
   font-family: "High Tide Sans";
   font-size: 16px;
   font-weight: bold;

@@ -13,15 +13,18 @@ export const Coaching = () => {
         alt={"A photo of Magali walking down a road towards the horizon."}
       />
       <div>
-        <b>
-          Coaching is a space for you to reflect, process, and express
-          yourself.{" "}
-        </b>
-        It amplifies your voice and helps surface what is already inside of you.{" "}
-        <b>
-          It gives you the tools to design and step into a life that you
-          actually want, to unblock yourself, and to pursue your dreams.
-        </b>
+        <p>
+          <b>
+            Coaching is a space for you to reflect, process, and express
+            yourself.{" "}
+          </b>
+          It amplifies your voice and helps surface what is already inside of
+          you.{" "}
+          <b>
+            It gives you the tools to design and step into a life that you
+            actually want, to unblock yourself, and to pursue your dreams.
+          </b>
+        </p>
         <p>
           I am passionate about the coaching modality because I don't think any
           of us need to be told what to do, and I know that for change to last,
@@ -56,9 +59,11 @@ export const Coaching = () => {
         alt={"A photo of Magali as an explorer, peering out of a jungle"}
       />
       <div>
-        I founded my coaching business with a big mission. I dream of a world in
-        which empathy is the norm, and in which we recognize every one of our
-        strengths and celebrate every difference.{" "}
+        <p>
+          I founded my coaching business with a big mission. I dream of a world
+          in which empathy is the norm, and in which we recognize every one of
+          our strengths and celebrate every difference.{" "}
+        </p>
         <span>
           <b>
             I want every person on this planet to:

@@ -20,7 +20,7 @@ export const Home = () => {
         }
       />
       <div>
-        Do you want to work with me as a coach?
+        <p>Do you want to work with me as a coach?</p>
         <p className="NavigationButton">
           <a
             href={coachingInterestFormExternalUrl}
@@ -28,7 +28,7 @@ export const Home = () => {
             rel="noreferrer"
             className="ButtonStyle"
           >
-            Fill out my coaching interest form
+            Yes! I'm interested
           </a>
         </p>
         Curious to learn more about coaching?

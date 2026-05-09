@@ -36,6 +36,13 @@ export const Books = () => {
           we, too, grow and gather experience we can use to choose how to
           interact with the world.{" "}
         </p>
+        <img
+          className="ImageSmallVertical"
+          src={"/img/reading.jpg"}
+          alt={
+            "A photo of Magali sitting with her knees to her chest on a windowsill, reading."
+          }
+        />
       </div>
       <p>
         Here is my evergrowing list of{" "}

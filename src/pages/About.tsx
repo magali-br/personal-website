@@ -37,6 +37,13 @@ export const About = () => {
           make for years. Six months later, I decided to honour an idea I'd had
           for years and took the leap to becoming a coach.
         </p>
+        <img
+          className="ImageMediumHorizontal"
+          src={"/img/hiking_silhouette_poles.jpg"}
+          alt={
+            "A photo of Magali standing on a snowy hill, with hat, backpack, and hiking poles, facing the snowy mountains beyond."
+          }
+        />
         <p>
           I value deep empathy, honesty, authenticity, and vulnerability. I
           celebrate every act of courage, especially when it comes to digging

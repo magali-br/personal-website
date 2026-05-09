@@ -70,19 +70,36 @@ export const Recipes = () => {
 
   return (
     <div className="Container">
-      <p>
-        Here are some of my favourite recipes, that I make again and again.{" "}
-      </p>{" "}
-      <p>
-        You might be surprised to find this page on my professional website. I'm
-        including it because I always find it deeply enriching to get to know my
-        coach (or prospective coach) as a whole person. Baking (and eating!) is
-        one of my favourite activities. So is sharing my recipes with those who
-        enjoy them.
-      </p>
-      <p>
-        Bon appétit... buen provecho... صحتين ... Guten Appetit... en guete!
-      </p>
+      <div>
+        <p>
+          Here are some of my favourite recipes, that I make again and again.
+        </p>
+        <p>
+          You might be surprised to find this page on my professional website.
+          I'm including it because I always find it deeply enriching to get to
+          know my coach (or prospective coach) as a whole person. Baking (and
+          eating!) is one of my favourite activities. So is sharing my recipes
+          with those who enjoy them.
+        </p>
+        <p>
+          Bon appétit... buen provecho... صحتين ... Guten Appetit... en guete!
+        </p>
+        <img
+          className="ImageSmallerHorizontal"
+          src={"/img/ice_cream.jpg"}
+          alt={"A photo of Magali eating ice cream on a stick."}
+        />
+        {/* <img
+          className="ImageSmallVertical"
+          src={"/img/restaurant_vietnamese.jpg"}
+          alt={"A photo of Magali eating pho with chopsticks."}
+        /> */}
+        {/* <img
+          className="ImageSmallVertical"
+          src={"/img/restaurant_vietnamese_cropped_again.jpg"}
+          alt={"A photo of Magali eating pho with chopsticks."}
+        /> */}
+      </div>
       <h1 className="TextTitle">Recipes</h1>
       {loading ? (
         <p>Loading...</p>

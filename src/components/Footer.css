@@ -1,11 +1,11 @@
 .FooterBackground {
-  background-color: var(--footer);
+  background-color: var(--footer_colour);
   padding: 20px 35px;
 }
 
 .FooterInnerBar {
   font-size: 11px;
-  color: var(--footer_text);
+  color: var(--footer_text_colour);
   display: flex;
   justify-content: space-between;
   align-items: center;
