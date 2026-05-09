@@ -53,24 +53,26 @@
 
 - [x] Remove empty white space below the copyright
 - [x] Fix flash when loading recipe detail page (on slow 4G, see that footer is flashing across screen)
-- [x] Mobile - don't allow image on About page to shrink too small
 - [x] Make page text centered
 - [x] Add buttons & make them modern and robust
 
-- [] Make page text left-aligned within center bar (Values / Valeurs pages are purely centered)
-- [] Mobile - make navbar vertical
-- [] Mobile - improve Footer
-- [] Mobile - Headers should shrink responsively to be smaller in phone mode (adapt line height using @media in App.css)
-- [] Mobile - scale everything appropriately using @media in App.css
-- [] Get rid of awkward AppContainer CSS line "min-height: calc(100vh - 207px);" - & doesn't work on mobile
-- [] Navbar - Choose between my name left-aligned, menu right-aligned vs both centered with name above menu
-- [] Navbar bug - When shrink too much, background colour is narrower than page and white chunk appears on the right
+## Style - mobile
 
-## Navigation
+- [] Get rid of awkward AppContainer CSS line "min-height: calc(100vh - 207px);" - & broken on mobile (footer out of view)
+- [] Headers should shrink responsively to be smaller in phone mode (adapt line height using @media in App.css)
+- [] Don't allow images to shrink too small
+- [] Make page text left-aligned within center bar (Values / Valeurs pages are purely centered)
+- [] Make navbar vertical
+- [] Improve footer
+- [] Mobile - scale everything appropriately using @media in App.css
+
+## Navigation, navbar & footer
 
 - [n/a] Group similar navbar items into dropdowns: e.g. Coaching and Coaching Tools
 - [x] Navbar and footer menu links and icons: Improve hover (=> modernized: changed from colouring background to making font grow in size. Also only have that item grow, nothing else.)
+- [x] Navbar - Choose between my name left-aligned, menu right-aligned vs both centered with name above menu
 
+- [] Navbar bug - When shrink too much, background colour is narrower than page and white chunk appears on the right
 - [] Group Reading / Recipes / Languages under "Fun" dropdown menu?
 
 ## Home
