@@ -70,6 +70,19 @@ export const Recipes = () => {
 
   return (
     <div className="Container">
+      <p>
+        Here are some of my favourite recipes, that I make again and again.{" "}
+      </p>{" "}
+      <p>
+        You might be surprised to find this page on my professional website. I'm
+        including it because I always find it deeply enriching to get to know my
+        coach (or prospective coach) as a whole person. Baking (and eating!) is
+        one of my favourite activities. So is sharing my recipes with those who
+        enjoy them.
+      </p>
+      <p>
+        Bon appétit... buen provecho... صحتين ... Guten Appetit... en guete!
+      </p>
       <h1 className="TextTitle">Recipes</h1>
       {loading ? (
         <p>Loading...</p>
@@ -115,10 +128,6 @@ export const Recipes = () => {
           </ul>
         </div>
       )}
-      <p className="Italic">
-        N.B.: These recipes are optimized for my kitchen. You might need to
-        adapt baking times and oven temperatures to your own.
-      </p>
     </div>
   );
 };
