@@ -156,8 +156,8 @@ body {
   border: 2px solid var(--button_colour);
   color: var(--button_text_colour);
   border-radius: 30px;
-  height: 30px; /* Define a fixed height */
-  padding: 0 40px; /* Only use padding for the sides */
+  padding: 7px 40px;
+  text-align: center;
 
   /* Smooth transition for the hover effect */
   transition:
