@@ -60,11 +60,21 @@
 }
 
 @font-face {
-  font-family: "High Tide Sans";
+  font-family: "High Tide";
   src:
     url("fonts/HighTideSans.woff2") format("woff2"),
     url("fonts/HighTideSans.woff") format("woff");
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "High Tide";
+  src:
+    url("fonts/HighTideBold.woff2") format("woff2"),
+    url("fonts/HighTideBold.woff") format("woff");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -114,9 +124,8 @@ a {
   flex-direction: column;
   align-items: center;
 
-  /* Remove height of footer + height of navbar + vertical padding here around contained */
-  /* -207px if title on left, -228px if title centered */
-  min-height: calc(100vh - 228px);
+  /* TODO(mbr): FIX: Hack. Remove height of footer + height of navbar + vertical padding here around contained */
+  min-height: calc(100vh - 236px);
 }
 
 body,
@@ -144,7 +153,7 @@ body {
 
   /* Styling */
   font-size: 18px;
-  font-family: "High Tide Sans";
+  font-family: "High Tide";
   background-color: var(--button_colour);
   border: 2px solid var(--button_colour);
   color: var(--button_text_colour);
@@ -166,7 +175,7 @@ body {
 
 button {
   font-size: 18px;
-  font-family: "High Tide Sans";
+  font-family: "High Tide";
   background-color: var(--button_colour);
   border-color: var(--button_colour);
   color: var(--button_text_colour);
@@ -249,7 +258,7 @@ button:hover {
   line-height: 40px;
   font-size: 30px;
   font-family: "Sawarabi Mincho";
-  /* font-family: "High Tide Sans"; */
+  /* font-family: "High Tide"; */
 }
 
 .TextSubtitle {

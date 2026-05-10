@@ -1,6 +1,6 @@
 .Navbar {
   background-color: var(--header_colour);
-  padding: 30px 35px 20px 35px;
+  padding: 20px 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,9 +10,9 @@
 
 .NavbarTitle {
   /* font-family: "Freckle Face"; */
-  font-family: "High Tide Sans";
+  font-family: "High Tide";
   letter-spacing: -0.5px;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 40px;
   color: var(--title_colour);
   width: fit-content;
@@ -38,8 +38,10 @@
 
 .MenuItem {
   color: var(--title_colour);
-  font-family: "High Tide Sans";
+  font-family: "High Tide";
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
+
+  /* font-weight: 900; */
   padding: 3px;
 }
