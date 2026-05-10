@@ -58,7 +58,8 @@
 
 ## Style - mobile
 
-- [] Get rid of awkward AppContainer CSS line "min-height: calc(100vh - 207px);" - & broken on mobile (footer out of view)
+- [x] Get rid of awkward AppContainer CSS line "min-height: calc(100vh - 207px);" - & broken on mobile (footer out of view)
+
 - [] Headers should shrink responsively to be smaller in phone mode (adapt line height using @media in App.css)
 - [] Don't allow images to shrink too small
 - [] Make page text left-aligned within center bar (Values / Valeurs pages are purely centered)
