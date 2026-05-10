@@ -84,21 +84,6 @@ export const Recipes = () => {
         <p>
           Bon appétit... buen provecho... صحتين ... Guten Appetit... en guete!
         </p>
-        {/* <img
-          className="ImageSmallerHorizontal"
-          src={"/img/ice_cream.jpg"}
-          alt={"A photo of Magali eating ice cream on a stick."}
-        /> */}
-        {/* <img
-          className="ImageSmallVertical"
-          src={"/img/restaurant_vietnamese.jpg"}
-          alt={"A photo of Magali eating pho with chopsticks."}
-        /> */}
-        {/* <img
-          className="ImageSmallVertical"
-          src={"/img/restaurant_vietnamese_cropped_again.jpg"}
-          alt={"A photo of Magali eating pho with chopsticks."}
-        /> */}
         <img
           className="ImageSmallerVertical"
           src={"/img/chef_hat.jpg"}
@@ -107,8 +92,7 @@ export const Recipes = () => {
           }
         />
         <div className="Italic">
-          Proudly displaying a chef's hat (and an apron, and a pyjama) that I
-          sewed myself!
+          Proudly displaying a chef's hat that I sewed myself!
         </div>
       </div>
       <h1 className="TextTitle">Recipes</h1>

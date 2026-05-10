@@ -61,16 +61,12 @@
 
 @font-face {
   font-family: "High Tide Sans";
-  src: url("fonts/HighTide-Sans.otf") format("opentype");
+  src:
+    url("fonts/HighTideSans.woff2") format("woff2"),
+    url("fonts/HighTideSans.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "High Tide Sans";
-  src: url("fonts/HighTide-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -140,8 +136,9 @@ body {
 
 .ButtonStyle {
   /* Layout & Display */
-  display: inline-block; /* Necessary for <a> tags to respect padding/height */
-  text-align: center;
+  display: inline-flex;
+  align-items: center; /* Centers vertically */
+  justify-content: center; /*Centers horizontally */
   text-decoration: none; /* Removes the default underline from links */
   cursor: pointer;
 
@@ -152,7 +149,8 @@ body {
   border: 2px solid var(--button_colour);
   color: var(--button_text_colour);
   border-radius: 30px;
-  padding: 7px 40px 3px 40px;
+  height: 30px; /* Define a fixed height */
+  padding: 0 40px; /* Only use padding for the sides */
 
   /* Smooth transition for the hover effect */
   transition:
