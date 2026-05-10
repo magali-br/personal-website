@@ -14,10 +14,10 @@ export const About = () => {
           travelling between worlds and jumping in and out as I please.
         </p>
         <img
-          className="ImageSmallVertical"
-          src={"/img/magali_montpellier_cropped.jpg"}
+          className="ImageMediumHorizontal"
+          src={"/img/hiking_silhouette_poles.jpg"}
           alt={
-            "A photo of Magali with her hand outstretched towards a vine growing on the facade of a white house."
+            "A photo of Magali standing on a snowy hill, with hat, backpack, and hiking poles, facing the snowy mountains beyond."
           }
         />
       </div>
@@ -38,10 +38,10 @@ export const About = () => {
           for years and took the leap to becoming a coach.
         </p>
         <img
-          className="ImageMediumHorizontal"
-          src={"/img/hiking_silhouette_poles.jpg"}
+          className="ImageSmallVertical"
+          src={"/img/magali_montpellier_cropped.jpg"}
           alt={
-            "A photo of Magali standing on a snowy hill, with hat, backpack, and hiking poles, facing the snowy mountains beyond."
+            "A photo of Magali with her hand outstretched towards a vine growing on the facade of a white house."
           }
         />
         <p>
