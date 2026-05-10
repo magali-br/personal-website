@@ -82,7 +82,7 @@ export const Recipes = () => {
           with those who enjoy them.
         </p>
         <p>
-          Bon appétit... buen provecho... صحتين ... Guten Appetit... en guete!
+          Bon appétit... buen provecho... صحتين ... guten Appetit... en guete!
         </p>
         <img
           className="ImageSmallerVertical"
@@ -92,7 +92,7 @@ export const Recipes = () => {
           }
         />
         <div className="Italic">
-          Proudly displaying a chef's hat that I sewed myself!
+          Proudly displaying a chef's hat that I sewed myself.
         </div>
       </div>
       <h1 className="TextTitle">Recipes</h1>

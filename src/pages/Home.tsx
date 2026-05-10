@@ -11,16 +11,16 @@ export const Home = () => {
 
   return (
     <div className="Container">
-      <h1 className="TextTitle">I'm Magali. Welcome.</h1>
+      <h1 className="TextTitle">Welcome.</h1>
       <img
-        className="ImageSmallVertical"
-        src={"/img/magali_dandelion.jpg"}
+        className="ImageMediumHorizontal"
+        src={"/img/hiking_silhouette_poles.jpg"}
         alt={
-          "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
+          "A photo of Magali standing on a snowy hill, with hat, backpack, and hiking poles, facing the snowy mountains beyond."
         }
       />
       <div>
-        <p>Do you want to work with me as a coach?</p>
+        {/* <p>Do you want to work with me as a coach?</p>
         <p className="NavigationButton">
           <a
             href={coachingInterestFormExternalUrl}
@@ -30,14 +30,14 @@ export const Home = () => {
           >
             Yes! I'm interested
           </a>
-        </p>
-        Curious to learn more about coaching?
+        </p> */}
+        <p>Curious to learn more about coaching?</p>
         <p className="NavigationButton">
           <Link to="/coaching" className="ButtonStyle">
             Learn more about coaching
           </Link>
         </p>
-        Questions? Send me a message on{" "}
+        {/* Questions? Send me a message on{" "}
         <a
           className="VisibleLink Link"
           href="https://www.linkedin.com/in/magali-br/"
@@ -55,7 +55,7 @@ export const Home = () => {
         >
           Instagram
         </a>
-        .
+        . */}
       </div>
     </div>
   );

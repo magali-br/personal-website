@@ -4,6 +4,19 @@ export const Coaching = () => {
   const coachingInterestFormExternalUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSd6t-RtpoJajc7flzHLep92ICEs2UvaOvpqUlUOK92pgkBLVw/viewform?usp=header";
 
+  const coachingInterestFormButton = (
+    <p className="NavigationButton">
+      <a
+        href={coachingInterestFormExternalUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="ButtonStyle"
+      >
+        Join coaching waitlist
+      </a>
+    </p>
+  );
+
   return (
     <div className="Container">
       <h1 className="TextTitle">What is coaching?</h1>
@@ -51,6 +64,7 @@ export const Coaching = () => {
           or grounding dance and movement practices. But you get to decide every
           step of the way what feels good and what you need and want.
         </p>
+        {coachingInterestFormButton}
       </div>
       <h1 className="TextTitle">My vision</h1>
       <img
@@ -82,21 +96,13 @@ export const Coaching = () => {
           cultures or societies, who face threats simply for being who they are
           or loving who they do. But this is the world I dream of.{" "}
         </p>
+        {coachingInterestFormButton}
       </div>
 
       <h1 className="TextTitle">Interested?</h1>
       <p>
-        If you'd like to try working with me as a coach, fill out the following
-        form (
-        <a
-          className="VisibleLink Link"
-          href={coachingInterestFormExternalUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          external link
-        </a>
-        ):
+        If you'd like to work with me as a coach, fill out the following form
+        directly below or by clicking on one of the buttons on this page.
       </p>
       <iframe
         src={coachingInterestFormEmbedUrl}
@@ -107,7 +113,7 @@ export const Coaching = () => {
         Loading…
       </iframe>
       <p>
-        You can also message me on{" "}
+        If you have questions, feel free to message me on{" "}
         <a
           className="VisibleLink Link"
           href="https://www.linkedin.com/in/magali-br/"
@@ -127,6 +133,8 @@ export const Coaching = () => {
         </a>
         .
       </p>
+
+      {coachingInterestFormButton}
       {/* <h1 className="TextTitle">Interested?</h1>
       <div className="flex flex-col items-center justify-start flex-grow w-full px-[8%] mt-[92px]">
         <iframe

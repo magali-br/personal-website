@@ -14,10 +14,10 @@ export const About = () => {
           travelling between worlds and jumping in and out as I please.
         </p>
         <img
-          className="ImageMediumHorizontal"
-          src={"/img/hiking_silhouette_poles.jpg"}
+          className="ImageSmallVertical"
+          src={"/img/magali_dandelion.jpg"}
           alt={
-            "A photo of Magali standing on a snowy hill, with hat, backpack, and hiking poles, facing the snowy mountains beyond."
+            "A photo of Magali posing in front of a white wall with a dandelion and bird sticker on it."
           }
         />
       </div>
